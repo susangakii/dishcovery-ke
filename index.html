@@ -16,6 +16,26 @@
         </header>
 
         <main class="main-content">
+            <section class="input-values">
+                <h2>Find Your Perfect Dish</h2>
+                <div class="input-group">
+                    <label for="county-select">County:</label>
+                    <select id="county-select">
+                        <option value="" hidden>Select County</option>
+                        <option value="">All Counties</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="dish-input">Dish Name:</label>
+                    <input type="text" id="dish-input" placeholder="e.g., Ravioli, Nyama Choma, Sukuma Wiki">
+                </div>
+
+                <div class="submit-button">
+                    <button type="submit" id="submit-btn">Begin Search</button>
+                </div>
+            </section>
+
             <aside class="filters-sidebar">
                 <h2>Filter Results</h2>
 
@@ -53,26 +73,6 @@
                 </div>
 
             </aside>
-
-            <section class="input-values">
-                <h2>Find Your Perfect Dish</h2>
-                <div class="input-group">
-                    <label for="county-select">County:</label>
-                    <select id="county-select">
-                        <option value="" hidden>Select County</option>
-                        <option value="">All Counties</option>
-                    </select>
-                </div>
-
-                <div class="input-group">
-                    <label for="dish-input">Dish Name:</label>
-                    <input type="text" id="dish-input" placeholder="e.g., Ravioli, Nyama Choma, Sukuma Wiki">
-                </div>
-
-                <div class="submit-button">
-                    <button type="submit" id="submit-btn">Begin Search</button>
-                </div>
-            </section>
 
             <section class="results-section">
                 <div id="results-container" class="results-grid">

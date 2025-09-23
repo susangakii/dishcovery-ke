@@ -44,26 +44,10 @@ body {
 /* main content - three column layout */
 .main-content {
     display: grid;
-    grid-template-columns: 300px 350px 1fr;
+    grid-template-columns: 350px 300px 1fr;
     gap: 2rem;
     flex: 1;
     margin-bottom: 2rem;
-}
-
-/* filters sidebar */
-.filters-sidebar {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: fit-content;
-}
-
-.filters-sidebar h2 {
-    margin-bottom: 1.5rem;
-    color: #333;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #ff6b35;
 }
 
 /* input values section */
@@ -82,6 +66,22 @@ body {
     border-bottom: 2px solid #28a745;
 }
 
+/* filters sidebar */
+.filters-sidebar {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+}
+
+.filters-sidebar h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ff6b35;
+}
+
 /* results section */
 .results-section {
     background: white;
@@ -97,18 +97,18 @@ body {
 }
 
 /* form elements styling */
-.filter-group, .input-group {
+.input-group, .filter-group {
     margin-bottom: 1.5rem;
 }
 
-.filter-group label, .input-group label {
+.input-group label, .filter-group label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
     color: #555;
 }
 
-.filter-group select, .input-group select, .input-group input {
+.input-group select, .input-group input, .filter-group select {
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #ddd;
@@ -118,13 +118,13 @@ body {
     transition: border-color 0.3s;
 }
 
-.filter-group select:focus, .input-group select:focus, .input-group input:focus {
+.input-group select:focus, .input-group input:focus, .filter-group select:focus {
     outline: none;
     border-color: #ff6b35;
 }
 
 /* buttons */
-.filter-buttons, .submit-button {
+.submit-button, .filter-buttons {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
@@ -140,12 +140,12 @@ button {
     font-weight: 600;
 }
 
-#search-btn, #submit-btn {
+#submit-btn, #search-btn {
     background-color: #b83100;
     color: white;
 }
 
-#search-btn:hover, #submit-btn:hover {
+#submit-btn:hover, #search-btn:hover {
     background-color: #693800;
     transform: translateY(-2px);
 }
@@ -184,7 +184,7 @@ footer {
 /* responsive design (adjusted based on device used to load) */
 @media (max-width: 1200px) {
     .main-content {
-        grid-template-columns: 280px 320px 1fr;
+        grid-template-columns: 320px 280px 1fr;
         gap: 1.5rem;
     }
 }
