@@ -1,0 +1,4754 @@
+{
+  "restaurants": [
+    {
+      "county": "Nairobi",
+      "restaurants": [
+        {
+          "name": "Jiko Restaurant",
+          "address": "Tribe Hotel, Village Market, Limuru Road, Nairobi",
+          "cuisine": "African",
+          "dishes": [
+            {
+              "name": "Sukuma Ravioli",
+              "description": "Traditional kale wrapped in pasta with African spices"
+            },
+            {
+              "name": "Arrowroot Con Carne",
+              "description": "Slow-cooked arrowroot with beef and traditional herbs"
+            },
+            {
+              "name": "Mashed Potato and Baobab",
+              "description": "Creamy mashed potatoes infused with baobab fruit"
+            },
+            {
+              "name": "Kondoo Mchuzi",
+              "description": "Tender lamb stew in rich Swahili sauce"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Tusker Beer",
+              "description": "Kenya's premium lager beer"
+            },
+            {
+              "name": "Dawa Cocktail",
+              "description": "Traditional honey and lime vodka cocktail"
+            },
+            {
+              "name": "Fresh Mango Juice",
+              "description": "Pure blended tropical mango"
+            }
+          ],
+          "price_range": "2500-4000 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 11:00pm",
+            "Tuesday: 6:00am - 11:00pm",
+            "Wednesday: 6:00am - 11:00pm",
+            "Thursday: 6:00am - 11:00pm",
+            "Friday: 6:00am - 11:00pm",
+            "Saturday: 6:00am - 11:00pm",
+            "Sunday: 6:00am - 11:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/modern-restaurant-interior",
+            "https://unsplash.com/photos/african-restaurant-ambiance"
+          ],
+          "phone": "+254 207 200 601",
+          "email": "info@tribe-hotel.com",
+          "website": "https://www.tribe-hotel.com/nairobi/jiko-restaurant-nairobi/",
+          "rating": 4.8,
+          "special_features": "African fusion cuisine, elegant ambiance",
+          "social_media": [
+            "https://www.instagram.com/tribehotel/",
+            "https://www.facebook.com/TribeHotelNairobi/"
+          ]
+        },
+        {
+          "name": "Hero Restaurant",
+          "address": "Trademark Hotel, Village Market, Nairobi",
+          "cuisine": "Japanese",
+          "dishes": [
+            {
+              "name": "Octopus and Rhubarb Maki",
+              "description": "Fresh octopus with rhubarb in sushi rice"
+            },
+            {
+              "name": "Pressed Pork Belly Skewers",
+              "description": "Slow-cooked pork belly with Japanese glaze"
+            },
+            {
+              "name": "Salmon Sashimi",
+              "description": "Fresh Atlantic salmon slices with wasabi"
+            },
+            {
+              "name": "Tempura Prawns",
+              "description": "Light battered prawns with dipping sauce"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Madafu Sawa",
+              "description": "Coconut water with whisky infusion"
+            },
+            {
+              "name": "Peter Porker",
+              "description": "Bacon fat-washed whisky cocktail"
+            },
+            {
+              "name": "Sake Flight",
+              "description": "Selection of premium Japanese sake"
+            }
+          ],
+          "price_range": "3000-5000 KES pp",
+          "operating_hours": [
+            "Monday: 5:00pm - 12:00am",
+            "Tuesday: 5:00pm - 12:00am",
+            "Wednesday: 5:00pm - 12:00am",
+            "Thursday: 5:00pm - 12:00am",
+            "Friday: 5:00pm - 2:00am",
+            "Saturday: 5:00pm - 2:00am",
+            "Sunday: 5:00pm - 12:00am"
+          ],
+          "images": [
+            "https://unsplash.com/photos/japanese-restaurant-interior",
+            "https://unsplash.com/photos/sushi-bar-design"
+          ],
+          "phone": "+254 732 186 666",
+          "email": "info@hero-kenya.com",
+          "website": "https://www.hero-kenya.com/",
+          "rating": 4.7,
+          "special_features": "World-class sushi bar, comic book theme",
+          "social_media": [
+            "https://www.instagram.com/heronairobi/",
+            "https://www.facebook.com/HeroNairobi/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Mombasa",
+      "restaurants": [
+        {
+          "name": "Monsoons Restaurant",
+          "address": "Jumba Ruins, Mtwapa Beach, Mombasa",
+          "cuisine": "Seafood",
+          "dishes": [
+            {
+              "name": "Seafood Platter",
+              "description": "Fresh lobster, prawns, snapper, octopus and calamari"
+            },
+            {
+              "name": "Pili Pili Lobster",
+              "description": "Grilled lobster with spicy Swahili sauce"
+            },
+            {
+              "name": "Salt and Pepper Calamari",
+              "description": "Crispy fried calamari with Asian spices"
+            },
+            {
+              "name": "Spaghetti Marinara",
+              "description": "Fresh pasta with mixed seafood in tomato sauce"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Tropical Fruit Punch",
+              "description": "Blend of fresh tropical fruits"
+            },
+            {
+              "name": "White Wine Selection",
+              "description": "Curated selection of international whites"
+            },
+            {
+              "name": "Fresh Coconut Water",
+              "description": "Chilled coconut water served in shell"
+            }
+          ],
+          "price_range": "2500-4500 KES pp",
+          "operating_hours": [
+            "Monday: 12:00pm - 10:00pm",
+            "Tuesday: 12:00pm - 10:00pm",
+            "Wednesday: 12:00pm - 10:00pm",
+            "Thursday: 12:00pm - 10:00pm",
+            "Friday: 12:00pm - 11:00pm",
+            "Saturday: 12:00pm - 11:00pm",
+            "Sunday: 12:00pm - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/beach-restaurant-view",
+            "https://unsplash.com/photos/oceanfront-dining"
+          ],
+          "phone": "+254 701 897 540",
+          "email": "bandaruins@yahoo.com",
+          "website": "https://www.facebook.com/MonsoonsMtwapa/",
+          "rating": 4.6,
+          "special_features": "Oceanfront location, fresh daily catch",
+          "social_media": [
+            "https://www.instagram.com/monsoonsmtwapa/",
+            "https://www.facebook.com/MonsoonsMtwapa/"
+          ]
+        },
+        {
+          "name": "Roberto's Italian Restaurant",
+          "address": "Opposite Premiere Hospital, Links Road, Mombasa",
+          "cuisine": "Italian",
+          "dishes": [
+            {
+              "name": "Seafood Pizza",
+              "description": "Wood-fired pizza with fresh seafood toppings"
+            },
+            {
+              "name": "Filled Pasta",
+              "description": "Handmade pasta stuffed with ricotta and spinach"
+            },
+            {
+              "name": "Beef Cheeks",
+              "description": "Slow-cooked beef cheeks in red wine sauce"
+            },
+            {
+              "name": "Parmagiana",
+              "description": "Classic eggplant parmesan with fresh basil"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Italian Wine Selection",
+              "description": "Premium wines from various Italian regions"
+            },
+            {
+              "name": "Aperol Spritz",
+              "description": "Classic Italian cocktail with prosecco"
+            },
+            {
+              "name": "Espresso",
+              "description": "Authentic Italian espresso coffee"
+            }
+          ],
+          "price_range": "2000-3500 KES pp",
+          "operating_hours": [
+            "Monday: 6:00pm - 10:30pm",
+            "Tuesday: 6:00pm - 10:30pm",
+            "Wednesday: 6:00pm - 10:30pm",
+            "Thursday: 6:00pm - 10:30pm",
+            "Friday: 6:00pm - 11:00pm",
+            "Saturday: 6:00pm - 11:00pm",
+            "Sunday: 6:00pm - 10:30pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/italian-restaurant-interior",
+            "https://unsplash.com/photos/trattoria-ambiance"
+          ],
+          "phone": "+254 723 223 399",
+          "email": "info@robertoslinksroad.com",
+          "website": "https://web.facebook.com/robertoslinksroad/",
+          "rating": 4.5,
+          "special_features": "Authentic Italian cuisine, central location",
+          "social_media": [
+            "https://www.instagram.com/robertosmombasa/",
+            "https://www.facebook.com/robertoslinksroad/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Kisumu",
+      "restaurants": [
+        {
+          "name": "Tilapia Beach Restaurant",
+          "address": "Lake Victoria Shores, Kisumu",
+          "cuisine": "Seafood",
+          "dishes": [
+            {
+              "name": "Grilled Tilapia",
+              "description": "Fresh Lake Victoria tilapia with local spices"
+            },
+            {
+              "name": "Fish Curry",
+              "description": "Traditional Luo fish curry with coconut milk"
+            },
+            {
+              "name": "Lake Victoria Perch",
+              "description": "Grilled perch with ugali and vegetables"
+            },
+            {
+              "name": "Seafood Pilau",
+              "description": "Swahili spiced rice with mixed seafood"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Fresh Tilapia Soup",
+              "description": "Light fish broth with local herbs"
+            },
+            {
+              "name": "Tropical Juice Blend",
+              "description": "Mix of mango, passion and orange"
+            },
+            {
+              "name": "White Wine",
+              "description": "Selection of South African whites"
+            }
+          ],
+          "price_range": "1000-2500 KES pp",
+          "operating_hours": [
+            "Monday: 11:00am - 9:00pm",
+            "Tuesday: 11:00am - 9:00pm",
+            "Wednesday: 11:00am - 9:00pm",
+            "Thursday: 11:00am - 9:00pm",
+            "Friday: 11:00am - 10:00pm",
+            "Saturday: 11:00am - 10:00pm",
+            "Sunday: 11:00am - 9:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/lake-restaurant-view",
+            "https://unsplash.com/photos/lakeside-dining"
+          ],
+          "phone": "+254 722 731 342",
+          "email": "info@tilapiabeach.co.ke",
+          "website": "https://www.facebook.com/TilapiaBeachKisumu/",
+          "rating": 4.4,
+          "special_features": "Lakefront location, fresh lake fish",
+          "social_media": [
+            "https://www.instagram.com/tilapiabeachkisumu/",
+            "https://www.facebook.com/TilapiaBeachKisumu/"
+          ]
+        },
+        {
+          "name": "Mattan Issa Restaurant",
+          "address": "Next to Victoria Hotel, Accra Street, Kisumu",
+          "cuisine": "Healthy",
+          "dishes": [
+            {
+              "name": "Quinoa Salad Bowl",
+              "description": "Organic quinoa with fresh vegetables and nuts"
+            },
+            {
+              "name": "Grilled Chicken Breast",
+              "description": "Lean chicken with steamed vegetables"
+            },
+            {
+              "name": "Smoothie Bowl",
+              "description": "Acai berry base with fresh fruits and granola"
+            },
+            {
+              "name": "Vegetable Stir-fry",
+              "description": "Fresh seasonal vegetables with brown rice"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Green Detox Juice",
+              "description": "Kale, spinach, apple and ginger blend"
+            },
+            {
+              "name": "Protein Smoothie",
+              "description": "Banana, protein powder and almond milk"
+            },
+            {
+              "name": "Herbal Tea Selection",
+              "description": "Various organic herbal infusions"
+            }
+          ],
+          "price_range": "800-1800 KES pp",
+          "operating_hours": [
+            "Monday: 7:00am - 9:00pm",
+            "Tuesday: 7:00am - 9:00pm",
+            "Wednesday: 7:00am - 9:00pm",
+            "Thursday: 7:00am - 9:00pm",
+            "Friday: 7:00am - 9:00pm",
+            "Saturday: 7:00am - 9:00pm",
+            "Sunday: 7:00am - 9:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/healthy-restaurant-interior",
+            "https://unsplash.com/photos/organic-cafe-ambiance"
+          ],
+          "phone": "+254 723 960 984",
+          "email": "info@mattanissarestaurant.com",
+          "website": "https://www.facebook.com/MattanIssaRestaurant/",
+          "rating": 4.3,
+          "special_features": "Health-focused menu, organic ingredients",
+          "social_media": [
+            "https://www.instagram.com/mattanissarestaurant/",
+            "https://www.facebook.com/MattanIssaRestaurant/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Nakuru",
+      "restaurants": [
+        {
+          "name": "Gilani's Restaurant",
+          "address": "Supermarket Complex, Kenyatta Avenue, Nakuru",
+          "cuisine": "International",
+          "dishes": [
+            {
+              "name": "Chicken Tikka Masala",
+              "description": "Clay oven cooked chicken in tomato and spice gravy"
+            },
+            {
+              "name": "Mongolian Beef",
+              "description": "Stir-fried marinated beef with Asian vegetables"
+            },
+            {
+              "name": "Methi Chicken",
+              "description": "Chicken curry with fenugreek and black pepper"
+            },
+            {
+              "name": "Grilled Tilapia",
+              "description": "Fresh tilapia with Swahili spices and ugali"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Masala Chai",
+              "description": "Traditional spiced Indian tea"
+            },
+            {
+              "name": "Fresh Mango Lassi",
+              "description": "Yogurt-based mango smoothie"
+            },
+            {
+              "name": "Tusker Beer",
+              "description": "Kenyan premium lager"
+            }
+          ],
+          "price_range": "1000-2200 KES pp",
+          "operating_hours": [
+            "Monday: 7:00am - 9:00pm",
+            "Tuesday: 7:00am - 9:00pm",
+            "Wednesday: 7:00am - 9:00pm",
+            "Thursday: 7:00am - 9:00pm",
+            "Friday: 7:00am - 10:00pm",
+            "Saturday: 7:00am - 10:00pm",
+            "Sunday: 7:00am - 9:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/international-restaurant-interior",
+            "https://unsplash.com/photos/diverse-cuisine-restaurant"
+          ],
+          "phone": "+254 722 888 777",
+          "email": "info@gilanisrestaurant.co.ke",
+          "website": "https://www.gilanis.co.ke/",
+          "rating": 4.2,
+          "special_features": "Multiple cuisine options, family-friendly",
+          "social_media": [
+            "https://www.instagram.com/gilanisrestaurant/",
+            "https://www.facebook.com/GilanisRestaurantNakuru/"
+          ]
+        },
+        {
+          "name": "Under the Tree Club and Restaurant",
+          "address": "Nakuru Town Centre, Kenyatta Avenue, Nakuru",
+          "cuisine": "Kenyan",
+          "dishes": [
+            {
+              "name": "Nyama Choma",
+              "description": "Grilled goat meat with kachumbari salad"
+            },
+            {
+              "name": "Chicken Stew",
+              "description": "Traditional chicken stew with ugali"
+            },
+            {
+              "name": "Fish Fry",
+              "description": "Crispy fried tilapia with chips"
+            },
+            {
+              "name": "Beef Pilau",
+              "description": "Swahili spiced rice with tender beef"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Tusker Beer",
+              "description": "Kenya's favorite lager"
+            },
+            {
+              "name": "Fresh Juice Blend",
+              "description": "Seasonal tropical fruit juice"
+            },
+            {
+              "name": "Traditional Honey Wine",
+              "description": "Locally brewed honey-based wine"
+            }
+          ],
+          "price_range": "800-1800 KES pp",
+          "operating_hours": [
+            "Monday: 10:00am - 10:00pm",
+            "Tuesday: 10:00am - 10:00pm",
+            "Wednesday: 10:00am - 10:00pm",
+            "Thursday: 10:00am - 10:00pm",
+            "Friday: 10:00am - 11:00pm",
+            "Saturday: 10:00am - 11:00pm",
+            "Sunday: 10:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/traditional-kenyan-restaurant",
+            "https://unsplash.com/photos/outdoor-dining-kenya"
+          ],
+          "phone": "+254 722 345 678",
+          "email": "info@underthetree.co.ke",
+          "website": "https://www.facebook.com/UndertheTreeNakuru/",
+          "rating": 4.1,
+          "special_features": "Outdoor seating, live music on weekends",
+          "social_media": [
+            "https://www.instagram.com/underthetreenakuru/",
+            "https://www.facebook.com/UndertheTreeNakuru/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Uasin Gishu",
+      "restaurants": [
+        {
+          "name": "Boma Inn Restaurant",
+          "address": "Off Ramogi Road, Eldoret",
+          "cuisine": "Continental",
+          "dishes": [
+            {
+              "name": "Swahili Biryani",
+              "description": "Fragrant rice with coastal spices and meat"
+            },
+            {
+              "name": "Beef Fillet Steak",
+              "description": "Premium beef cut with chef's special sauce"
+            },
+            {
+              "name": "Grilled Tilapia",
+              "description": "Fresh tilapia with lemon butter sauce"
+            },
+            {
+              "name": "Vegetarian Lasagna",
+              "description": "Layered pasta with seasonal vegetables"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "House Wine Selection",
+              "description": "Curated red and white wines"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Daily selection of fresh fruit juices"
+            },
+            {
+              "name": "Kenyan Coffee",
+              "description": "Premium Arabica coffee from local farms"
+            }
+          ],
+          "price_range": "1500-3000 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:00pm",
+            "Tuesday: 6:00am - 10:00pm",
+            "Wednesday: 6:00am - 10:00pm",
+            "Thursday: 6:00am - 10:00pm",
+            "Friday: 6:00am - 10:30pm",
+            "Saturday: 6:00am - 10:30pm",
+            "Sunday: 6:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/hotel-restaurant-interior",
+            "https://unsplash.com/photos/continental-dining-room"
+          ],
+          "phone": "+254 722 123 456",
+          "email": "info@bomahotel.com",
+          "website": "https://www.bomahotel.com/",
+          "rating": 4.3,
+          "special_features": "Luxury hotel dining, Sunday brunch buffet",
+          "social_media": [
+            "https://www.instagram.com/bomahoteleldoret/",
+            "https://www.facebook.com/BomaInnEldoret/"
+          ]
+        },
+        {
+          "name": "Columbus Cafe",
+          "address": "Eldoret Town Centre, Eldoret",
+          "cuisine": "International",
+          "dishes": [
+            {
+              "name": "Sinia Platter",
+              "description": "Mixed grill platter with African spices"
+            },
+            {
+              "name": "Chicken Shawarma",
+              "description": "Middle Eastern wrap with garlic sauce"
+            },
+            {
+              "name": "Grilled Steak",
+              "description": "Tender beef steak with vegetables"
+            },
+            {
+              "name": "Vegetable Curry",
+              "description": "Mixed vegetables in coconut curry"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Fresh Mango Juice",
+              "description": "Pure mango blend with ice"
+            },
+            {
+              "name": "Cappuccino",
+              "description": "Italian-style coffee with foam"
+            },
+            {
+              "name": "Iced Tea",
+              "description": "Chilled tea with lemon and mint"
+            }
+          ],
+          "price_range": "800-2000 KES pp",
+          "operating_hours": [
+            "Monday: 7:00am - 10:00pm",
+            "Tuesday: 7:00am - 10:00pm",
+            "Wednesday: 7:00am - 10:00pm",
+            "Thursday: 7:00am - 10:00pm",
+            "Friday: 7:00am - 11:00pm",
+            "Saturday: 7:00am - 11:00pm",
+            "Sunday: 7:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/modern-cafe-interior",
+            "https://unsplash.com/photos/coffee-shop-ambiance"
+          ],
+          "phone": "+254 111 555 222",
+          "email": "info@columbuscafe.co.ke",
+          "website": "https://www.columbuscafe.co.ke/",
+          "rating": 4.4,
+          "special_features": "All-day dining, halal options available",
+          "social_media": [
+            "https://www.instagram.com/columbuscafe/",
+            "https://www.facebook.com/ColumbusCafeEldoret/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Meru",
+      "restaurants": [
+        {
+          "name": "Travena Restaurant",
+          "address": "Meru Town Centre, Meru",
+          "cuisine": "African",
+          "dishes": [
+            {
+              "name": "Nyama Choma",
+              "description": "Grilled meat with traditional spices"
+            },
+            {
+              "name": "Irio",
+              "description": "Traditional Kikuyu dish of mashed peas and potatoes"
+            },
+            {
+              "name": "Githeri",
+              "description": "Traditional corn and bean stew"
+            },
+            {
+              "name": "Mukimo",
+              "description": "Mashed potatoes with greens and corn"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Muratina",
+              "description": "Traditional honey beer"
+            },
+            {
+              "name": "Fresh Milk",
+              "description": "Fresh dairy milk from local farms"
+            },
+            {
+              "name": "Fruit Juice",
+              "description": "Seasonal tropical fruit blends"
+            }
+          ],
+          "price_range": "600-1500 KES pp",
+          "operating_hours": [
+            "Monday: 7:00am - 9:00pm",
+            "Tuesday: 7:00am - 9:00pm",
+            "Wednesday: 7:00am - 9:00pm",
+            "Thursday: 7:00am - 9:00pm",
+            "Friday: 7:00am - 10:00pm",
+            "Saturday: 7:00am - 10:00pm",
+            "Sunday: 7:00am - 9:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/traditional-african-restaurant",
+            "https://unsplash.com/photos/rustic-dining-interior"
+          ],
+          "phone": "+254 723 795 424",
+          "email": "info@travenarestaurant.co.ke",
+          "website": "https://www.facebook.com/TravenaRestaurantsMeru/",
+          "rating": 4.2,
+          "special_features": "Traditional Meru cuisine, fast delivery",
+          "social_media": [
+            "https://www.instagram.com/travenameru/",
+            "https://www.facebook.com/TravenaRestaurantsMeru/"
+          ]
+        },
+        {
+          "name": "KendiJoy Healthy Foods",
+          "address": "3J4Q+5WH, Meru Town",
+          "cuisine": "Healthy",
+          "dishes": [
+            {
+              "name": "Quinoa Bowl",
+              "description": "Organic quinoa with fresh vegetables"
+            },
+            {
+              "name": "Grilled Chicken Salad",
+              "description": "Lean chicken breast with mixed greens"
+            },
+            {
+              "name": "Vegetable Stir-fry",
+              "description": "Fresh seasonal vegetables with brown rice"
+            },
+            {
+              "name": "Fresh Fruit Salad",
+              "description": "Seasonal tropical fruit mix"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Green Smoothie",
+              "description": "Spinach, kale, apple and banana blend"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Daily selection of fresh fruit juices"
+            },
+            {
+              "name": "Herbal Tea",
+              "description": "Various organic herbal infusions"
+            }
+          ],
+          "price_range": "500-1200 KES pp",
+          "operating_hours": [
+            "Monday: 8:00am - 8:00pm",
+            "Tuesday: 8:00am - 8:00pm",
+            "Wednesday: 8:00am - 8:00pm",
+            "Thursday: 8:00am - 8:00pm",
+            "Friday: 8:00am - 8:00pm",
+            "Saturday: 8:00am - 8:00pm",
+            "Sunday: 8:00am - 8:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/healthy-cafe-interior",
+            "https://unsplash.com/photos/organic-restaurant-design"
+          ],
+          "phone": "+254 725 918 685",
+          "email": "info@kendijoy.co.ke",
+          "website": "https://www.facebook.com/KendiJoyHealthyFoods/",
+          "rating": 4.0,
+          "special_features": "Health-focused menu, organic ingredients",
+          "social_media": [
+            "https://www.instagram.com/kendijoyhealthyfoods/",
+            "https://www.facebook.com/KendiJoyHealthyFoods/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Machakos",
+      "restaurants": [
+        {
+          "name": "Gelian Hotel Restaurant",
+          "address": "Gelian Hotel, Machakos Town",
+          "cuisine": "Continental",
+          "dishes": [
+            {
+              "name": "Chicken Cordon Bleu",
+              "description": "Stuffed chicken breast with ham and cheese"
+            },
+            {
+              "name": "Mushroom Soup",
+              "description": "Creamy soup with fresh mushrooms"
+            },
+            {
+              "name": "Pasta Alfredo",
+              "description": "Classic Italian pasta with cream sauce"
+            },
+            {
+              "name": "Grilled Steak",
+              "description": "Prime beef cut with chef's vegetables"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "House Wine",
+              "description": "Selection of red and white wines"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Daily fresh fruit juice selection"
+            },
+            {
+              "name": "Coffee Selection",
+              "description": "Premium Kenyan and international coffee"
+            }
+          ],
+          "price_range": "1200-2500 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:00pm",
+            "Tuesday: 6:00am - 10:00pm",
+            "Wednesday: 6:00am - 10:00pm",
+            "Thursday: 6:00am - 10:00pm",
+            "Friday: 6:00am - 11:00pm",
+            "Saturday: 6:00am - 11:00pm",
+            "Sunday: 6:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/hotel-restaurant-luxury",
+            "https://unsplash.com/photos/fine-dining-interior"
+          ],
+          "phone": "+254 722 234 567",
+          "email": "info@gelianhotel.co.ke",
+          "website": "https://www.gelianhotel.co.ke/",
+          "rating": 4.3,
+          "special_features": "Four-star hotel dining, professional service",
+          "social_media": [
+            "https://www.instagram.com/gelianhotel/",
+            "https://www.facebook.com/GelianHotelMachakos/"
+          ]
+        },
+        {
+          "name": "Ceuvoé House Restaurant",
+          "address": "Machakos Town Centre, Machakos",
+          "cuisine": "African",
+          "dishes": [
+            {
+              "name": "Nyama Choma",
+              "description": "Traditional grilled meat with kachumbari"
+            },
+            {
+              "name": "Ugali and Sukuma",
+              "description": "Staple maize meal with collard greens"
+            },
+            {
+              "name": "Chicken Stew",
+              "description": "Traditional chicken stew with local spices"
+            },
+            {
+              "name": "Githeri",
+              "description": "Traditional corn and bean mixture"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Tusker Beer",
+              "description": "Kenya's premium lager"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Seasonal tropical fruit juices"
+            },
+            {
+              "name": "Traditional Brew",
+              "description": "Local traditional fermented drink"
+            }
+          ],
+          "price_range": "600-1500 KES pp",
+          "operating_hours": [
+            "Monday: 10:00am - 10:00pm",
+            "Tuesday: 10:00am - 10:00pm",
+            "Wednesday: 10:00am - 10:00pm",
+            "Thursday: 10:00am - 10:00pm",
+            "Friday: 10:00am - 11:00pm",
+            "Saturday: 10:00am - 11:00pm",
+            "Sunday: 10:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/african-restaurant-traditional",
+            "https://unsplash.com/photos/local-dining-experience"
+          ],
+          "phone": "+254 722 345 678",
+          "email": "info@ceuvoehouse.co.ke",
+          "website": "https://www.facebook.com/CeuvoeHouseMachakos/",
+          "rating": 4.1,
+          "special_features": "Traditional African setting, local cuisine",
+          "social_media": [
+            "https://www.instagram.com/ceuvoehouse/",
+            "https://www.facebook.com/CeuvoeHouseMachakos/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Kericho",
+      "restaurants": [
+        {
+          "name": "Kericho Tea Hotel Restaurant",
+          "address": "B1 Mau Summit-Kericho-Kisumu Road, Kericho",
+          "cuisine": "Continental",
+          "dishes": [
+            {
+              "name": "Tea-Smoked Chicken",
+              "description": "Chicken smoked with Kericho tea leaves"
+            },
+            {
+              "name": "High Tea Platter",
+              "description": "Assorted sandwiches and pastries with tea"
+            },
+            {
+              "name": "Grilled Trout",
+              "description": "Fresh mountain trout with lemon butter"
+            },
+            {
+              "name": "Tea Farm Salad",
+              "description": "Fresh greens with tea-infused dressing"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Kericho Tea Selection",
+              "description": "Premium teas from local plantations"
+            },
+            {
+              "name": "Iced Tea",
+              "description": "Chilled tea with lemon and mint"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Tropical fruit juices"
+            }
+          ],
+          "price_range": "1500-3000 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:00pm",
+            "Tuesday: 6:00am - 10:00pm",
+            "Wednesday: 6:00am - 10:00pm",
+            "Thursday: 6:00am - 10:00pm",
+            "Friday: 6:00am - 11:00pm",
+            "Saturday: 6:00am - 11:00pm",
+            "Sunday: 6:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/tea-hotel-restaurant",
+            "https://unsplash.com/photos/colonial-dining-room"
+          ],
+          "phone": "+254 722 123 456",
+          "email": "info@kerichoteahotel.com",
+          "website": "https://www.kerichoteahotel.com/",
+          "rating": 4.4,
+          "special_features": "Historic tea hotel, Victorian architecture",
+          "social_media": [
+            "https://www.instagram.com/kerichoteahotel/",
+            "https://www.facebook.com/KerichoTeaHotel/"
+          ]
+        },
+        {
+          "name": "Chai Square",
+          "address": "Kericho Town Centre, Kericho",
+          "cuisine": "Cafe",
+          "dishes": [
+            {
+              "name": "Tea Leaf Salad",
+              "description": "Fresh salad with tea-infused olive oil"
+            },
+            {
+              "name": "Scones with Tea Jam",
+              "description": "Fresh baked scones with tea-flavored jam"
+            },
+            {
+              "name": "Tea-Smoked Sandwich",
+              "description": "Sandwich with tea-smoked fillings"
+            },
+            {
+              "name": "Green Tea Muffins",
+              "description": "Fresh muffins with green tea flavor"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Premium Kericho Tea",
+              "description": "Freshly brewed local tea"
+            },
+            {
+              "name": "Tea Latte",
+              "description": "Steamed milk with strong tea"
+            },
+            {
+              "name": "Iced Tea Blend",
+              "description": "Chilled tea with fruit flavors"
+            }
+          ],
+          "price_range": "500-1200 KES pp",
+          "operating_hours": [
+            "Monday: 7:00am - 8:00pm",
+            "Tuesday: 7:00am - 8:00pm",
+            "Wednesday: 7:00am - 8:00pm",
+            "Thursday: 7:00am - 8:00pm",
+            "Friday: 7:00am - 9:00pm",
+            "Saturday: 7:00am - 9:00pm",
+            "Sunday: 7:00am - 8:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/tea-cafe-interior",
+            "https://unsplash.com/photos/cozy-cafe-ambiance"
+          ],
+          "phone": "+254 724 297 589",
+          "email": "info@chaisquare.co.ke",
+          "website": "https://www.facebook.com/ChaiSquareKericho/",
+          "rating": 4.0,
+          "special_features": "Tea-themed cafe, local tea specialties",
+          "social_media": [
+            "https://www.instagram.com/chaisquarekericho/",
+            "https://www.facebook.com/ChaiSquareKericho/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Kakamega",
+      "restaurants": [
+        {
+          "name": "Columbus Cafe Kakamega",
+          "address": "Masinde Muliro Avenue, Kakamega",
+          "cuisine": "International",
+          "dishes": [
+            {
+              "name": "Grilled Chicken",
+              "description": "Tender chicken with chef's special marinade"
+            },
+            {
+              "name": "Beef Burger",
+              "description": "Premium beef patty with fresh vegetables"
+            },
+            {
+              "name": "Vegetable Pasta",
+              "description": "Al dente pasta with seasonal vegetables"
+            },
+            {
+              "name": "Fish and Chips",
+              "description": "Crispy fried fish with golden fries"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Fresh Juice",
+              "description": "Daily selection of tropical fruit juices"
+            },
+            {
+              "name": "Cappuccino",
+              "description": "Italian-style coffee with steamed milk"
+            },
+            {
+              "name": "Iced Tea",
+              "description": "Chilled tea with lemon and mint"
+            }
+          ],
+          "price_range": "800-1800 KES pp",
+          "operating_hours": [
+            "Monday: 7:00am - 10:00pm",
+            "Tuesday: 7:00am - 10:00pm",
+            "Wednesday: 7:00am - 10:00pm",
+            "Thursday: 7:00am - 10:00pm",
+            "Friday: 7:00am - 11:00pm",
+            "Saturday: 7:00am - 11:00pm",
+            "Sunday: 7:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/modern-cafe-kakamega",
+            "https://unsplash.com/photos/cafe-interior-design"
+          ],
+          "phone": "+254 792 888 444",
+          "email": "info@columbuscafe.co.ke",
+          "website": "https://www.columbuscafe.co.ke/",
+          "rating": 4.9,
+          "special_features": "All-day dining, halal options",
+          "social_media": [
+            "https://www.instagram.com/columbuscafekakamega/",
+            "https://www.facebook.com/ColumbusCafeKakamega/"
+          ]
+        },
+        {
+          "name": "The Branise Hotel Restaurant",
+          "address": "Kakamega Town Centre, Kakamega",
+          "cuisine": "Continental",
+          "dishes": [
+            {
+              "name": "Grilled Steak",
+              "description": "Premium beef with seasonal vegetables"
+            },
+            {
+              "name": "Chicken Parmesan",
+              "description": "Breaded chicken with tomato and cheese"
+            },
+            {
+              "name": "Vegetable Lasagna",
+              "description": "Layered pasta with fresh vegetables"
+            },
+            {
+              "name": "Fish Fillet",
+              "description": "Grilled fish with lemon butter sauce"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "House Wine",
+              "description": "Selection of red and white wines"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Tropical fruit juice blends"
+            },
+            {
+              "name": "Coffee Selection",
+              "description": "Premium Kenyan and international coffee"
+            }
+          ],
+          "price_range": "1200-2500 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:00pm",
+            "Tuesday: 6:00am - 10:00pm",
+            "Wednesday: 6:00am - 10:00pm",
+            "Thursday: 6:00am - 10:00pm",
+            "Friday: 6:00am - 11:00pm",
+            "Saturday: 6:00am - 11:00pm",
+            "Sunday: 6:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/hotel-restaurant-elegant",
+            "https://unsplash.com/photos/dining-room-sophisticated"
+          ],
+          "phone": "+254 783 882 005",
+          "email": "info@thebranisehotel.com",
+          "website": "https://www.thebranisehotel.com/",
+          "rating": 4.2,
+          "special_features": "Hotel dining, professional service",
+          "social_media": [
+            "https://www.instagram.com/thebranisehotel/",
+            "https://www.facebook.com/TheBraniseHotel/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Bungoma",
+      "restaurants": [
+        {
+          "name": "Tuutis Restaurant",
+          "address": "Kenya Industrial Estates (KIE), Bungoma",
+          "cuisine": "International",
+          "dishes": [
+            {
+              "name": "Spicy Chicken Wings",
+              "description": "Crispy wings with special hot sauce"
+            },
+            {
+              "name": "Beef Skewers",
+              "description": "Tender beef pieces with vegetables"
+            },
+            {
+              "name": "Grilled Fish",
+              "description": "Fresh fish with lemon herb marinade"
+            },
+            {
+              "name": "Vegetable Curry",
+              "description": "Mixed vegetables in coconut sauce"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Fresh Juice",
+              "description": "Seasonal tropical fruit juices"
+            },
+            {
+              "name": "Tusker Beer",
+              "description": "Kenya's premium lager"
+            },
+            {
+              "name": "Soft Drinks",
+              "description": "Various carbonated beverages"
+            }
+          ],
+          "price_range": "800-1800 KES pp",
+          "operating_hours": [
+            "Monday: 10:00am - 10:00pm",
+            "Tuesday: 10:00am - 10:00pm",
+            "Wednesday: 10:00am - 10:00pm",
+            "Thursday: 10:00am - 10:00pm",
+            "Friday: 10:00am - 11:00pm",
+            "Saturday: 10:00am - 11:00pm",
+            "Sunday: 10:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/modern-restaurant-bungoma",
+            "https://unsplash.com/photos/contemporary-dining-space"
+          ],
+          "phone": "+254 722 345 678",
+          "email": "info@tuutis.co.ke",
+          "website": "https://www.facebook.com/TuutisRestaurant/",
+          "rating": 4.3,
+          "special_features": "Finest dining in Bungoma, diverse menu",
+          "social_media": [
+            "https://www.instagram.com/tuutisrestaurant/",
+            "https://www.facebook.com/TuutisRestaurant/"
+          ]
+        },
+        {
+          "name": "Bungoma County Hotel Restaurant",
+          "address": "Bungoma Town Centre, Bungoma",
+          "cuisine": "Kenyan",
+          "dishes": [
+            {
+              "name": "Nyama Choma",
+              "description": "Traditional grilled goat meat"
+            },
+            {
+              "name": "Ugali and Fish",
+              "description": "Staple maize meal with fresh fish"
+            },
+            {
+              "name": "Chicken Stew",
+              "description": "Traditional chicken stew with local spices"
+            },
+            {
+              "name": "Sukuma Wiki",
+              "description": "Collard greens with onions and tomatoes"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Busaa",
+              "description": "Traditional fermented millet drink"
+            },
+            {
+              "name": "Fresh Milk",
+              "description": "Fresh dairy milk"
+            },
+            {
+              "name": "Fruit Juice",
+              "description": "Tropical fruit juice blends"
+            }
+          ],
+          "price_range": "500-1200 KES pp",
+          "operating_hours": [
+            "Monday: 7:00am - 9:00pm",
+            "Tuesday: 7:00am - 9:00pm",
+            "Wednesday: 7:00am - 9:00pm",
+            "Thursday: 7:00am - 9:00pm",
+            "Friday: 7:00am - 10:00pm",
+            "Saturday: 7:00am - 10:00pm",
+            "Sunday: 7:00am - 9:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/traditional-kenyan-hotel",
+            "https://unsplash.com/photos/local-hotel-restaurant"
+          ],
+          "phone": "+254 722 987 654",
+          "email": "info@bungomahotel.co.ke",
+          "website": "https://www.bungomahotel.co.ke/",
+          "rating": 3.8,
+          "special_features": "Traditional Luhya cuisine, local atmosphere",
+          "social_media": [
+            "https://www.instagram.com/bungomahotel/",
+            "https://www.facebook.com/BungomaCountyHotel/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Nyeri",
+      "restaurants": [
+        {
+          "name": "White Rhino Hotel - Queen's Cave Pavilion",
+          "address": "Nyeri Town Centre, Nyeri",
+          "cuisine": "Continental",
+          "dishes": [
+            {
+              "name": "Osso Buco",
+              "description": "Italian braised veal shanks"
+            },
+            {
+              "name": "Beef Wellington",
+              "description": "Prime beef wrapped in puff pastry"
+            },
+            {
+              "name": "Lobster Thermidor",
+              "description": "Lobster with creamy mustard sauce"
+            },
+            {
+              "name": "Truffle Pasta",
+              "description": "Fresh pasta with truffle oil and parmesan"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Premium Wine Selection",
+              "description": "Curated international wines"
+            },
+            {
+              "name": "Champagne",
+              "description": "French champagne selection"
+            },
+            {
+              "name": "Craft Cocktails",
+              "description": "Signature mixed drinks"
+            }
+          ],
+          "price_range": "2500-5000 KES pp",
+          "operating_hours": [
+            "Monday: 6:00pm - 10:30pm",
+            "Tuesday: 6:00pm - 10:30pm",
+            "Wednesday: 6:00pm - 10:30pm",
+            "Thursday: 6:00pm - 10:30pm",
+            "Friday: 6:00pm - 11:00pm",
+            "Saturday: 6:00pm - 11:00pm",
+            "Sunday: 6:00pm - 10:30pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/luxury-hotel-restaurant",
+            "https://unsplash.com/photos/fine-dining-elegant"
+          ],
+          "phone": "+254 722 345 678",
+          "email": "info@whiterhinohotel.com",
+          "website": "https://www.whiterhinohotel.com/",
+          "rating": 4.7,
+          "special_features": "Ultimate fine dining experience, colonial charm",
+          "social_media": [
+            "https://www.instagram.com/whiterhinohotel/",
+            "https://www.facebook.com/WhiteRhinoHotelNyeri/"
+          ]
+        },
+        {
+          "name": "Green Hills Hotel Restaurant",
+          "address": "Nyeri Town, Nyeri",
+          "cuisine": "International",
+          "dishes": [
+            {
+              "name": "Grilled Steak",
+              "description": "Prime beef with seasonal vegetables"
+            },
+            {
+              "name": "Chicken Parmesan",
+              "description": "Breaded chicken with tomato and cheese"
+            },
+            {
+              "name": "Fresh Fish",
+              "description": "Daily catch with lemon butter sauce"
+            },
+            {
+              "name": "Vegetable Lasagna",
+              "description": "Layered pasta with fresh vegetables"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "House Wine",
+              "description": "Selection of red and white wines"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Tropical fruit juice blends"
+            },
+            {
+              "name": "Coffee Selection",
+              "description": "Premium Kenyan coffee"
+            }
+          ],
+          "price_range": "1500-3000 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:00pm",
+            "Tuesday: 6:00am - 10:00pm",
+            "Wednesday: 6:00am - 10:00pm",
+            "Thursday: 6:00am - 10:00pm",
+            "Friday: 6:00am - 11:00pm",
+            "Saturday: 6:00am - 11:00pm",
+            "Sunday: 6:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/hotel-restaurant-nyeri",
+            "https://unsplash.com/photos/dining-room-green-hills"
+          ],
+          "phone": "+254 722 987 654",
+          "email": "info@greenhillshotel.com",
+          "website": "https://www.greenhillshotel.com/",
+          "rating": 4.2,
+          "special_features": "Mountain views, serene environment",
+          "social_media": [
+            "https://www.instagram.com/greenhillshotelnyeri/",
+            "https://www.facebook.com/GreenHillsHotelNyeri/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Embu",
+      "restaurants": [
+        {
+          "name": "Nokras Silver Oak Hotel Restaurant",
+          "address": "Embu-Meru Highway, Embu",
+          "cuisine": "Continental",
+          "dishes": [
+            {
+              "name": "Grilled Steak",
+              "description": "Premium beef cut with chef's vegetables"
+            },
+            {
+              "name": "Chicken Cordon Bleu",
+              "description": "Stuffed chicken breast with ham and cheese"
+            },
+            {
+              "name": "Fresh Fish",
+              "description": "Daily catch with seasonal vegetables"
+            },
+            {
+              "name": "Vegetable Pasta",
+              "description": "Fresh pasta with seasonal vegetables"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "House Wine",
+              "description": "Selection of international wines"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Daily tropical fruit juices"
+            },
+            {
+              "name": "Coffee Selection",
+              "description": "Premium Kenyan and international coffee"
+            }
+          ],
+          "price_range": "1200-2800 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:00pm",
+            "Tuesday: 6:00am - 10:00pm",
+            "Wednesday: 6:00am - 10:00pm",
+            "Thursday: 6:00am - 10:00pm",
+            "Friday: 6:00am - 11:00pm",
+            "Saturday: 6:00am - 11:00pm",
+            "Sunday: 6:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/luxury-hotel-embu",
+            "https://unsplash.com/photos/elegant-dining-embu"
+          ],
+          "phone": "+254 715 480 422",
+          "email": "reservations@nokrassilveroak.co.ke",
+          "website": "https://www.nokrashotels.co.ke/",
+          "rating": 4.4,
+          "special_features": "Luxury hotel dining, poolside seating",
+          "social_media": [
+            "https://www.instagram.com/nokrasilveroak/",
+            "https://www.facebook.com/NokrasSilverOakEmbu/"
+          ]
+        },
+        {
+          "name": "Silver Gardens Restaurant",
+          "address": "Nokras Silver Oak, Embu Town",
+          "cuisine": "International",
+          "dishes": [
+            {
+              "name": "Continental Breakfast",
+              "description": "Full breakfast buffet with international options"
+            },
+            {
+              "name": "Grilled Chicken",
+              "description": "Tender chicken with chef's special sauce"
+            },
+            {
+              "name": "Beef Stew",
+              "description": "Rich beef stew with local vegetables"
+            },
+            {
+              "name": "Fresh Salad",
+              "description": "Mixed greens with house dressing"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Fresh Juice",
+              "description": "Daily selection of fresh fruit juices"
+            },
+            {
+              "name": "Coffee and Tea",
+              "description": "Premium hot beverages"
+            },
+            {
+              "name": "Soft Drinks",
+              "description": "Various carbonated beverages"
+            }
+          ],
+          "price_range": "800-2000 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:00pm",
+            "Tuesday: 6:00am - 10:00pm",
+            "Wednesday: 6:00am - 10:00pm",
+            "Thursday: 6:00am - 10:00pm",
+            "Friday: 6:00am - 11:00pm",
+            "Saturday: 6:00am - 11:00pm",
+            "Sunday: 6:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/silver-gardens-restaurant",
+            "https://unsplash.com/photos/garden-restaurant-embu"
+          ],
+          "phone": "+254 715 480 422",
+          "email": "frontdesk@nokrassilveroak.co.ke",
+          "website": "https://www.nokrashotels.co.ke/",
+          "rating": 4.1,
+          "special_features": "Garden setting, all-day dining",
+          "social_media": [
+            "https://www.instagram.com/silvergardensrestaurant/",
+            "https://www.facebook.com/SilverGardensEmbu/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Turkana",
+      "restaurants": [
+        {
+          "name": "Rudolf Regency Hotel Restaurant",
+          "address": "Lodwar Town Centre, Turkana County",
+          "cuisine": "Kenyan",
+          "dishes": [
+            {
+              "name": "Grilled Tilapia",
+              "description": "Fresh Lake Turkana tilapia with local spices"
+            },
+            {
+              "name": "Goat Stew",
+              "description": "Traditional Turkana goat meat stew"
+            },
+            {
+              "name": "Ugali and Sukuma",
+              "description": "Maize meal with collard greens"
+            },
+            {
+              "name": "Camel Meat",
+              "description": "Grilled camel meat with traditional spices"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Fresh Juice",
+              "description": "Tropical fruit juices"
+            },
+            {
+              "name": "Tusker Beer",
+              "description": "Kenyan premium lager"
+            },
+            {
+              "name": "Traditional Brew",
+              "description": "Local fermented drink"
+            }
+          ],
+          "price_range": "800-2000 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:00pm",
+            "Tuesday: 6:00am - 10:00pm",
+            "Wednesday: 6:00am - 10:00pm",
+            "Thursday: 6:00am - 10:00pm",
+            "Friday: 6:00am - 11:00pm",
+            "Saturday: 6:00am - 11:00pm",
+            "Sunday: 6:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/desert-hotel-restaurant",
+            "https://unsplash.com/photos/lodwar-dining-interior"
+          ],
+          "phone": "+254 722 155 556",
+          "email": "info@rudolfregency.com",
+          "website": "https://www.rudolfregency.com/",
+          "rating": 4.0,
+          "special_features": "Authentic Turkana cuisine, desert location",
+          "social_media": [
+            "https://www.instagram.com/rudolfregencylodwar/",
+            "https://www.facebook.com/RudolfRegencyLodwar/"
+          ]
+        },
+        {
+          "name": "Ateker Hotel Restaurant and Bar",
+          "address": "Lodwar Town, Turkana County",
+          "cuisine": "International",
+          "dishes": [
+            {
+              "name": "Grilled Steak",
+              "description": "Prime beef with vegetables"
+            },
+            {
+              "name": "Fresh Fish",
+              "description": "Daily catch from Lake Turkana"
+            },
+            {
+              "name": "Chicken Curry",
+              "description": "Chicken in coconut curry sauce"
+            },
+            {
+              "name": "Vegetable Stir-fry",
+              "description": "Fresh vegetables with rice"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Fresh Cocktails",
+              "description": "Signature mixed drinks"
+            },
+            {
+              "name": "Local Beer",
+              "description": "Kenyan beer selection"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Tropical fruit juices"
+            }
+          ],
+          "price_range": "1000-2200 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:30pm",
+            "Tuesday: 6:00am - 10:30pm",
+            "Wednesday: 6:00am - 10:30pm",
+            "Thursday: 6:00am - 10:30pm",
+            "Friday: 6:00am - 11:30pm",
+            "Saturday: 6:00am - 11:30pm",
+            "Sunday: 6:00am - 10:30pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/ateker-hotel-restaurant",
+            "https://unsplash.com/photos/lodwar-fine-dining"
+          ],
+          "phone": "+254 721 999 703",
+          "email": "info@atekerhotel.com",
+          "website": "https://www.atekerhotel.com/",
+          "rating": 4.1,
+          "special_features": "Fine dining, fresh cocktails, local cuisine",
+          "social_media": [
+            "https://www.instagram.com/atekerhotel/",
+            "https://www.facebook.com/AtekerHotelLodwar/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Kirinyaga",
+      "restaurants": [
+        {
+          "name": "Cliffneck Restaurant",
+          "address": "Kerugoya Town, Kirinyaga County",
+          "cuisine": "Seafood",
+          "dishes": [
+            {
+              "name": "Fresh Lobster",
+              "description": "Daily fresh lobster with garlic butter"
+            },
+            {
+              "name": "Grilled Prawns",
+              "description": "Large prawns with special marinade"
+            },
+            {
+              "name": "Fish Fillet",
+              "description": "Fresh fish with lemon sauce"
+            },
+            {
+              "name": "Seafood Platter",
+              "description": "Mixed seafood with vegetables"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "White Wine",
+              "description": "Selection of premium white wines"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Tropical fruit juice blends"
+            },
+            {
+              "name": "Cocktails",
+              "description": "Signature seafood-pairing cocktails"
+            }
+          ],
+          "price_range": "1500-3500 KES pp",
+          "operating_hours": [
+            "Monday: 11:00am - 10:00pm",
+            "Tuesday: 11:00am - 10:00pm",
+            "Wednesday: 11:00am - 10:00pm",
+            "Thursday: 11:00am - 10:00pm",
+            "Friday: 11:00am - 11:00pm",
+            "Saturday: 11:00am - 11:00pm",
+            "Sunday: 11:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/seafood-restaurant-interior",
+            "https://unsplash.com/photos/fresh-seafood-display"
+          ],
+          "phone": "+254 722 123 456",
+          "email": "info@cliffneckrestaurant.com",
+          "website": "https://www.cliffneckrestaurant.com/",
+          "rating": 4.5,
+          "special_features": "Only fresh seafood restaurant in Kirinyaga",
+          "social_media": [
+            "https://www.instagram.com/cliffneckrestaurant/",
+            "https://www.facebook.com/CliffneckRestaurant/"
+          ]
+        },
+        {
+          "name": "Kerugoya Town Restaurant",
+          "address": "Kerugoya Shopping Centre, Kirinyaga",
+          "cuisine": "Kenyan",
+          "dishes": [
+            {
+              "name": "Nyama Choma",
+              "description": "Traditional grilled meat"
+            },
+            {
+              "name": "Githeri",
+              "description": "Traditional corn and bean mixture"
+            },
+            {
+              "name": "Mukimo",
+              "description": "Mashed potatoes with greens"
+            },
+            {
+              "name": "Chicken Stew",
+              "description": "Traditional chicken stew"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Muratina",
+              "description": "Traditional honey beer"
+            },
+            {
+              "name": "Fresh Milk",
+              "description": "Fresh dairy milk"
+            },
+            {
+              "name": "Fruit Juice",
+              "description": "Seasonal fruit juices"
+            }
+          ],
+          "price_range": "500-1200 KES pp",
+          "operating_hours": [
+            "Monday: 7:00am - 9:00pm",
+            "Tuesday: 7:00am - 9:00pm",
+            "Wednesday: 7:00am - 9:00pm",
+            "Thursday: 7:00am - 9:00pm",
+            "Friday: 7:00am - 10:00pm",
+            "Saturday: 7:00am - 10:00pm",
+            "Sunday: 7:00am - 9:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/local-restaurant-kirinyaga",
+            "https://unsplash.com/photos/traditional-dining-interior"
+          ],
+          "phone": "+254 722 987 654",
+          "email": "info@kerugoyarestaurant.co.ke",
+          "website": "https://www.facebook.com/KerugoyaTownRestaurant/",
+          "rating": 3.8,
+          "special_features": "Local Kikuyu cuisine, central location",
+          "social_media": [
+            "https://www.instagram.com/kerugoyarestaurant/",
+            "https://www.facebook.com/KerugoyaTownRestaurant/"
+          ]
+        }
+      ]
+    },
+    {
+      "county": "Muranga",
+      "restaurants": [
+        {
+          "name": "Fortune Green Hotel Restaurant",
+          "address": "Muranga Town, Muranga County",
+          "cuisine": "International",
+          "dishes": [
+            {
+              "name": "Grilled Steak",
+              "description": "Prime beef with seasonal vegetables"
+            },
+            {
+              "name": "Chicken Curry",
+              "description": "Chicken in coconut curry sauce"
+            },
+            {
+              "name": "Fresh Fish",
+              "description": "Daily catch with lemon butter"
+            },
+            {
+              "name": "Vegetable Pasta",
+              "description": "Fresh pasta with garden vegetables"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "House Wine",
+              "description": "Selection of red and white wines"
+            },
+            {
+              "name": "Fresh Juice",
+              "description": "Tropical fruit juice blends"
+            },
+            {
+              "name": "Coffee Selection",
+              "description": "Premium Kenyan coffee"
+            }
+          ],
+          "price_range": "1000-2200 KES pp",
+          "operating_hours": [
+            "Monday: 6:00am - 10:00pm",
+            "Tuesday: 6:00am - 10:00pm",
+            "Wednesday: 6:00am - 10:00pm",
+            "Thursday: 6:00am - 10:00pm",
+            "Friday: 6:00am - 11:00pm",
+            "Saturday: 6:00am - 11:00pm",
+            "Sunday: 6:00am - 10:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/hotel-restaurant-muranga",
+            "https://unsplash.com/photos/green-hills-dining"
+          ],
+          "phone": "+254 722 345 678",
+          "email": "info@fortunegreenhotel.com",
+          "website": "https://www.fortunegreenhotel.com/",
+          "rating": 4.0,
+          "special_features": "Mountain views, comfortable accommodation",
+          "social_media": [
+            "https://www.instagram.com/fortunegreenhotel/",
+            "https://www.facebook.com/FortuneGreenHotelMuranga/"
+          ]
+        },
+        {
+          "name": "Kakuzi Boran Barn Restaurant",
+          "address": "Kakuzi Estate, Muranga County",
+          "cuisine": "Farm-to-table",
+          "dishes": [
+            {
+              "name": "Farm Fresh Salad",
+              "description": "Organic vegetables from Kakuzi farms"
+            },
+            {
+              "name": "Grass-fed Beef",
+              "description": "Premium beef from estate cattle"
+            },
+            {
+              "name": "Fresh Milk Products",
+              "description": "Dairy products from farm cows"
+            },
+            {
+              "name": "Seasonal Vegetables",
+              "description": "Fresh produce from estate gardens"
+            }
+          ],
+          "drinks": [
+            {
+              "name": "Fresh Milk",
+              "description": "Farm-fresh dairy milk"
+            },
+            {
+              "name": "Natural Juice",
+              "description": "Freshly squeezed fruit juices"
+            },
+            {
+              "name": "Spring Water",
+              "description": "Natural spring water from estate"
+            }
+          ],
+          "price_range": "800-1800 KES pp",
+          "operating_hours": [
+            "Monday: 8:00am - 6:00pm",
+            "Tuesday: 8:00am - 6:00pm",
+            "Wednesday: 8:00am - 6:00pm",
+            "Thursday: 8:00am - 6:00pm",
+            "Friday: 8:00am - 6:00pm",
+            "Saturday: 8:00am - 6:00pm",
+            "Sunday: 8:00am - 6:00pm"
+          ],
+          "images": [
+            "https://unsplash.com/photos/farm-restaurant-interior",
+            "https://unsplash.com/photos/barn-dining-conversion"
+          ],
+          "phone": "+254 722 987 654",
+          "email": "info@kakuzi.co.ke",
+          "website": "https://www.kakuzi.co.ke/",
+          "rating": 4.5,
+          "special_features": "Farm-to-table concept, estate setting",
+          "social_media": [
+            "https://www.instagram.com/kakuziestate/",
+            "https://www.facebook.com/KakuziEstate/"
+          ]
+        }
+      ]
+    },
+{
+  "county": "Kiambu",
+  "restaurants": [
+    {
+      "name": "The Forest Restaurant",
+      "address": "Kereita Forest, Kimende - Lari Sub County, Kiambu",
+      "cuisine": "Steakhouse",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with forest herbs and spices"
+        },
+        {
+          "name": "Forest Chicken",
+          "description": "Free-range chicken with wild mushroom sauce"
+        },
+        {
+          "name": "Tilapia Fish",
+          "description": "Fresh fish from local streams with lemon butter"
+        },
+        {
+          "name": "Vegetable Medley",
+          "description": "Fresh seasonal vegetables from local farms"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Blended tropical fruits from local orchards"
+        },
+        {
+          "name": "Forest Tea",
+          "description": "Herbal tea infused with forest botanicals"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        }
+      ],
+      "price_range": "1200-2500 KES pp",
+      "operating_hours": [
+        "Monday: 8:00am - 8:00pm",
+        "Tuesday: 8:00am - 8:00pm",
+        "Wednesday: 8:00am - 8:00pm",
+        "Thursday: 8:00am - 8:00pm",
+        "Friday: 8:00am - 9:00pm",
+        "Saturday: 8:00am - 9:00pm",
+        "Sunday: 8:00am - 8:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/forest-restaurant-interior",
+        "https://unsplash.com/photos/woodland-dining-experience"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@forestrestaurant.co.ke",
+      "website": "https://www.forestrestaurant.co.ke/",
+      "rating": 4.3,
+      "special_features": "Forest location, eco-friendly dining, hiking trails nearby",
+      "social_media": [
+        "https://www.instagram.com/forestrestaurantkiambu/",
+        "https://www.facebook.com/ForestRestaurantKiambu/"
+      ]
+    },
+    {
+      "name": "Ha Njeri Restaurant",
+      "address": "Kiambu Kamiti Road, Kiambu Town",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Mukimo",
+          "description": "Traditional Kikuyu mashed potatoes with greens"
+        },
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled goat meat with kachumbari salad"
+        },
+        {
+          "name": "Githeri",
+          "description": "Traditional corn and bean stew"
+        },
+        {
+          "name": "Irio",
+          "description": "Mashed peas and potatoes with corn"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Muratina",
+          "description": "Traditional honey beer"
+        },
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk from local farms"
+        },
+        {
+          "name": "Uji",
+          "description": "Traditional fermented porridge"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/traditional-african-restaurant",
+        "https://unsplash.com/photos/kikuyu-cuisine-interior"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@hanjeri.co.ke",
+      "website": "https://www.facebook.com/HaNjeriRestaurant/",
+      "rating": 4.1,
+      "special_features": "Authentic Kikuyu cuisine, traditional setting",
+      "social_media": [
+        "https://www.instagram.com/hanjerirestaurant/",
+        "https://www.facebook.com/HaNjeriRestaurant/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Kwale",
+  "restaurants": [
+    {
+      "name": "Ali Barbour's Cave Restaurant",
+      "address": "Off Diani Beach Road, Diani Beach, Kwale County",
+      "cuisine": "Seafood",
+      "dishes": [
+        {
+          "name": "Lobster Thermidor",
+          "description": "Fresh lobster with creamy mustard sauce"
+        },
+        {
+          "name": "Prawns Pili Pili",
+          "description": "Large prawns with spicy Swahili sauce"
+        },
+        {
+          "name": "Snapper Fillet",
+          "description": "Fresh red snapper with lemon butter"
+        },
+        {
+          "name": "Seafood Platter",
+          "description": "Mixed seafood including calamari and octopus"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Cave Cocktail",
+          "description": "Signature cocktail with tropical fruits"
+        },
+        {
+          "name": "White Wine",
+          "description": "Selection of premium white wines"
+        },
+        {
+          "name": "Fresh Coconut",
+          "description": "Chilled coconut water served in shell"
+        }
+      ],
+      "price_range": "3000-6000 KES pp",
+      "operating_hours": [
+        "Monday: 5:30pm - 11:00pm",
+        "Tuesday: 5:30pm - 11:00pm",
+        "Wednesday: 5:30pm - 11:00pm",
+        "Thursday: 5:30pm - 11:00pm",
+        "Friday: 5:30pm - 11:30pm",
+        "Saturday: 5:30pm - 11:30pm",
+        "Sunday: 5:30pm - 11:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/cave-restaurant-interior",
+        "https://unsplash.com/photos/underground-dining-cave"
+      ],
+      "phone": "+254 714 456 131",
+      "email": "reservations@alibarbours.com",
+      "website": "https://www.alibarbours.com/",
+      "rating": 4.8,
+      "special_features": "Unique cave setting, candlelit dining, 120,000-year-old cave",
+      "social_media": [
+        "https://www.instagram.com/alibarbours/",
+        "https://www.facebook.com/AliBarboursCaveRestaurant/"
+      ]
+    },
+    {
+      "name": "Kokkos Cafe Bistro",
+      "address": "Diani Beach Road, Diani Beach, Kwale County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Seafood Pasta",
+          "description": "Fresh pasta with local seafood"
+        },
+        {
+          "name": "Grilled Chicken",
+          "description": "Tender chicken with Mediterranean herbs"
+        },
+        {
+          "name": "Beef Fillet",
+          "description": "Premium beef with chef's special sauce"
+        },
+        {
+          "name": "Vegetable Curry",
+          "description": "Mixed vegetables in coconut curry"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Daily selection of tropical fruit juices"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        }
+      ],
+      "price_range": "1500-3000 KES pp",
+      "operating_hours": [
+        "Monday: 8:00am - 10:00pm",
+        "Tuesday: 8:00am - 10:00pm",
+        "Wednesday: 8:00am - 10:00pm",
+        "Thursday: 8:00am - 10:00pm",
+        "Friday: 8:00am - 11:00pm",
+        "Saturday: 8:00am - 11:00pm",
+        "Sunday: 8:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/beach-bistro-interior",
+        "https://unsplash.com/photos/coastal-cafe-ambiance"
+      ],
+      "phone": "+254 722 345 678",
+      "email": "info@kokkosbistro.com",
+      "website": "https://www.facebook.com/KokkosCafeBistro/",
+      "rating": 4.4,
+      "special_features": "Market-fresh ingredients, beach location, cozy atmosphere",
+      "social_media": [
+        "https://www.instagram.com/kokkosbistro/",
+        "https://www.facebook.com/KokkosCafeBistro/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Kilifi",
+  "restaurants": [
+    {
+      "name": "Che Shale Restaurant",
+      "address": "Che Shale Beach, Mambrui, Malindi, Kilifi County",
+      "cuisine": "Seafood",
+      "dishes": [
+        {
+          "name": "Crab Thermidor",
+          "description": "Fresh crab with creamy mustard sauce"
+        },
+        {
+          "name": "Lobster Grill",
+          "description": "Grilled lobster with garlic butter"
+        },
+        {
+          "name": "Prawns Curry",
+          "description": "Large prawns in coconut curry sauce"
+        },
+        {
+          "name": "Snapper Fillet",
+          "description": "Fresh snapper with lemon herb sauce"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Coconut Water",
+          "description": "Chilled coconut served in shell"
+        },
+        {
+          "name": "Tropical Cocktails",
+          "description": "Signature cocktails with local fruits"
+        },
+        {
+          "name": "White Wine",
+          "description": "Selection of premium white wines"
+        }
+      ],
+      "price_range": "2500-4500 KES pp",
+      "operating_hours": [
+        "Monday: 12:00pm - 10:00pm",
+        "Tuesday: 12:00pm - 10:00pm",
+        "Wednesday: 12:00pm - 10:00pm",
+        "Thursday: 12:00pm - 10:00pm",
+        "Friday: 12:00pm - 11:00pm",
+        "Saturday: 12:00pm - 11:00pm",
+        "Sunday: 12:00pm - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/beach-restaurant-seafood",
+        "https://unsplash.com/photos/coastal-dining-ambiance"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@cheshale.com",
+      "website": "https://www.cheshale.com/",
+      "rating": 4.6,
+      "special_features": "Beachfront location, kite surfing, boutique hotel",
+      "social_media": [
+        "https://www.instagram.com/cheshalemalindi/",
+        "https://www.facebook.com/CheShaleMalindi/"
+      ]
+    },
+    {
+      "name": "The Moorings Restaurant",
+      "address": "Mtwapa Creek, Kilifi County",
+      "cuisine": "Seafood",
+      "dishes": [
+        {
+          "name": "Floating Seafood Platter",
+          "description": "Mixed seafood served on floating platter"
+        },
+        {
+          "name": "Crab Curry",
+          "description": "Fresh crab in Swahili curry sauce"
+        },
+        {
+          "name": "Lobster Thermidor",
+          "description": "Lobster with creamy cheese sauce"
+        },
+        {
+          "name": "Grilled Prawns",
+          "description": "Jumbo prawns with garlic butter"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Dawa Cocktail",
+          "description": "Traditional honey and lime cocktail"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        }
+      ],
+      "price_range": "2000-4000 KES pp",
+      "operating_hours": [
+        "Monday: 11:00am - 10:00pm",
+        "Tuesday: 11:00am - 10:00pm",
+        "Wednesday: 11:00am - 10:00pm",
+        "Thursday: 11:00am - 10:00pm",
+        "Friday: 11:00am - 11:00pm",
+        "Saturday: 11:00am - 11:00pm",
+        "Sunday: 11:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/floating-restaurant-kenya",
+        "https://unsplash.com/photos/creek-dining-experience"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@themoorings.co.ke",
+      "website": "https://www.themoorings.co.ke/",
+      "rating": 4.5,
+      "special_features": "Floating restaurant, creek views, unique dining experience",
+      "social_media": [
+        "https://www.instagram.com/themooringskilifi/",
+        "https://www.facebook.com/TheMooringsKilifi/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Tana River",
+  "restaurants": [
+    {
+      "name": "Palm Oasis Resort Restaurant",
+      "address": "Garissa Town, Tana River County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Swahili Biriyani",
+          "description": "Fragrant rice with coastal spices and meat"
+        },
+        {
+          "name": "Grilled Tilapia",
+          "description": "Fresh Tana River fish with local spices"
+        },
+        {
+          "name": "Beef Stew",
+          "description": "Traditional beef stew with vegetables"
+        },
+        {
+          "name": "Vegetable Curry",
+          "description": "Mixed vegetables in coconut curry"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Tusker Beer",
+          "description": "Kenyan premium lager"
+        },
+        {
+          "name": "Traditional Tea",
+          "description": "Spiced Somali tea"
+        }
+      ],
+      "price_range": "800-1800 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/resort-restaurant-tana",
+        "https://unsplash.com/photos/desert-oasis-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@palmoasisresort.com",
+      "website": "https://www.palmoasisresort.com/",
+      "rating": 4.0,
+      "special_features": "Oasis setting, poolside dining, Somali cuisine",
+      "social_media": [
+        "https://www.instagram.com/palmoasisresort/",
+        "https://www.facebook.com/PalmOasisResortGarissa/"
+      ]
+    },
+    {
+      "name": "Joyma Bar Restaurant",
+      "address": "Mororo, Tana River County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Traditional grilled meat with spices"
+        },
+        {
+          "name": "Ugali and Fish",
+          "description": "Maize meal with fresh river fish"
+        },
+        {
+          "name": "Chicken Stew",
+          "description": "Traditional chicken stew with vegetables"
+        },
+        {
+          "name": "Sukuma Wiki",
+          "description": "Collard greens with tomatoes and onions"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Busaa",
+          "description": "Traditional fermented millet drink"
+        },
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal tropical fruit juices"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 24 hours",
+        "Tuesday: 24 hours",
+        "Wednesday: 24 hours",
+        "Thursday: 24 hours",
+        "Friday: 24 hours",
+        "Saturday: 24 hours",
+        "Sunday: 24 hours"
+      ],
+      "images": [
+        "https://unsplash.com/photos/local-restaurant-tana",
+        "https://unsplash.com/photos/roadside-dining-kenya"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@joymaresto.co.ke",
+      "website": "https://www.facebook.com/JoymaBarRestaurant/",
+      "rating": 3.8,
+      "special_features": "24-hour service, local cuisine, roadside convenience",
+      "social_media": [
+        "https://www.instagram.com/joymaresto/",
+        "https://www.facebook.com/JoymaBarRestaurant/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Lamu",
+  "restaurants": [
+    {
+      "name": "Floating Bar & Restaurant",
+      "address": "Shela Beach, Lamu Island, Lamu County",
+      "cuisine": "Seafood",
+      "dishes": [
+        {
+          "name": "Lobster Thermidor",
+          "description": "Fresh lobster with creamy mustard sauce"
+        },
+        {
+          "name": "Crab Curry",
+          "description": "Swahili-style crab curry with coconut milk"
+        },
+        {
+          "name": "Prawns Pilau",
+          "description": "Spiced rice with jumbo prawns"
+        },
+        {
+          "name": "Snapper Fillet",
+          "description": "Grilled snapper with Swahili spices"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Dawa Cocktail",
+          "description": "Traditional honey and lime cocktail"
+        },
+        {
+          "name": "Fresh Coconut Water",
+          "description": "Chilled coconut served in shell"
+        },
+        {
+          "name": "Tropical Juice",
+          "description": "Blend of fresh tropical fruits"
+        }
+      ],
+      "price_range": "2500-5000 KES pp",
+      "operating_hours": [
+        "Monday: 11:00am - 10:00pm",
+        "Tuesday: 11:00am - 10:00pm",
+        "Wednesday: 11:00am - 10:00pm",
+        "Thursday: 11:00am - 10:00pm",
+        "Friday: 11:00am - 11:00pm",
+        "Saturday: 11:00am - 11:00pm",
+        "Sunday: 11:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/floating-restaurant-lamu",
+        "https://unsplash.com/photos/ocean-dining-experience"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@floatingrestaurantlamu.com",
+      "website": "https://www.facebook.com/FloatingRestaurantLamu/",
+      "rating": 4.5,
+      "special_features": "Floating restaurant, ocean views, unique Swahili experience",
+      "social_media": [
+        "https://www.instagram.com/floatingrestaurantlamu/",
+        "https://www.facebook.com/FloatingRestaurantLamu/"
+      ]
+    },
+    {
+      "name": "Bahari Restaurant",
+      "address": "Lamu Town, Lamu Island, Lamu County",
+      "cuisine": "Swahili",
+      "dishes": [
+        {
+          "name": "Swahili Biriyani",
+          "description": "Fragrant rice with coastal spices and meat"
+        },
+        {
+          "name": "Fish Curry",
+          "description": "Fresh fish in coconut curry sauce"
+        },
+        {
+          "name": "Prawns Pilau",
+          "description": "Spiced rice with fresh prawns"
+        },
+        {
+          "name": "Octopus Stew",
+          "description": "Tender octopus in Swahili sauce"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Tangawizi Tea",
+          "description": "Spiced ginger tea"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        }
+      ],
+      "price_range": "1000-2500 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/swahili-restaurant-lamu",
+        "https://unsplash.com/photos/traditional-lamu-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@baharirestaurant.co.ke",
+      "website": "https://www.facebook.com/BahariRestaurantLamu/",
+      "rating": 4.2,
+      "special_features": "Authentic Swahili cuisine, traditional Lamu architecture",
+      "social_media": [
+        "https://www.instagram.com/baharirestaurantlamu/",
+        "https://www.facebook.com/BahariRestaurantLamu/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Taita-Taveta",
+  "restaurants": [
+    {
+      "name": "Salt Lick Safari Lodge Restaurant",
+      "address": "Tsavo West National Park, Taita-Taveta County",
+      "cuisine": "Safari",
+      "dishes": [
+        {
+          "name": "Game Meat Platter",
+          "description": "Selection of local game meats with traditional sides"
+        },
+        {
+          "name": "Bush BBQ",
+          "description": "Outdoor grilled meats with safari spices"
+        },
+        {
+          "name": "Taita Chicken",
+          "description": "Free-range chicken with local herbs"
+        },
+        {
+          "name": "Vegetable Stew",
+          "description": "Mixed vegetables with traditional spices"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Sundowner Cocktails",
+          "description": "Signature cocktails for safari evenings"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        }
+      ],
+      "price_range": "2000-4000 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/safari-lodge-restaurant",
+        "https://unsplash.com/photos/wildlife-dining-experience"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@saltlicklodge.com",
+      "website": "https://www.saltlicklodge.com/",
+      "rating": 4.6,
+      "special_features": "Underground lodge, wildlife watering hole views, safari experience",
+      "social_media": [
+        "https://www.instagram.com/saltlicklodge/",
+        "https://www.facebook.com/SaltLickSafariLodge/"
+      ]
+    },
+    {
+      "name": "Taita Hills Lodge Restaurant",
+      "address": "Taita Hills Wildlife Sanctuary, Taita-Taveta County",
+      "cuisine": "Continental",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with safari vegetables"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with lemon butter sauce"
+        },
+        {
+          "name": "Chicken Parmesan",
+          "description": "Breaded chicken with tomato and cheese"
+        },
+        {
+          "name": "Vegetable Lasagna",
+          "description": "Layered pasta with fresh vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "House Wine",
+          "description": "Selection of international wines"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Daily tropical fruit juices"
+        },
+        {
+          "name": "Coffee Selection",
+          "description": "Premium Kenyan and international coffee"
+        }
+      ],
+      "price_range": "1500-3000 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/hills-lodge-restaurant",
+        "https://unsplash.com/photos/sanctuary-dining-room"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@taitahills.co.ke",
+      "website": "https://www.taitahills.co.ke/",
+      "rating": 4.3,
+      "special_features": "Hilltop location, sanctuary views, colonial architecture",
+      "social_media": [
+        "https://www.instagram.com/taitahillslodge/",
+        "https://www.facebook.com/TaitaHillsLodge/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Garissa",
+  "restaurants": [
+    {
+      "name": "Nomad Palace Hotel Restaurant",
+      "address": "Garissa Town Centre, Garissa County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Somali Rice",
+          "description": "Fragrant rice with Somali spices and vegetables"
+        },
+        {
+          "name": "Grilled Goat",
+          "description": "Tender goat meat with traditional spices"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch from Tana River with Swahili sauce"
+        },
+        {
+          "name": "Vegetable Curry",
+          "description": "Mixed vegetables in coconut curry"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Somali Tea",
+          "description": "Spiced tea with cardamom and cinnamon"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        }
+      ],
+      "price_range": "800-1800 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/nomad-hotel-restaurant",
+        "https://unsplash.com/photos/northeastern-kenya-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@nomadpalacehotel.com",
+      "website": "https://www.nomadpalacehotel.com/",
+      "rating": 4.1,
+      "special_features": "Somali cuisine, desert location, conference facilities",
+      "social_media": [
+        "https://www.instagram.com/nomadpalacehotel/",
+        "https://www.facebook.com/NomadPalaceHotelGarissa/"
+      ]
+    },
+    {
+      "name": "Al-Madina Restaurant",
+      "address": "Garissa Town, Garissa County",
+      "cuisine": "Swahili",
+      "dishes": [
+        {
+          "name": "Pilau",
+          "description": "Swahili spiced rice with meat and vegetables"
+        },
+        {
+          "name": "Biriani",
+          "description": "Fragrant rice with coastal spices and tender meat"
+        },
+        {
+          "name": "Fish Curry",
+          "description": "Fresh fish in coconut curry sauce"
+        },
+        {
+          "name": "Mandazi",
+          "description": "Traditional Swahili fried bread"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Tangawizi Tea",
+          "description": "Spiced ginger tea"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Tamarind Juice",
+          "description": "Sweet and sour tamarind drink"
+        }
+      ],
+      "price_range": "600-1500 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/swahili-restaurant-interior",
+        "https://unsplash.com/photos/coastal-cuisine-ambiance"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@al-madina.co.ke",
+      "website": "https://www.facebook.com/AlMadinaRestaurantGarissa/",
+      "rating": 4.0,
+      "special_features": "Authentic Swahili cuisine, halal certified, family-friendly",
+      "social_media": [
+        "https://www.instagram.com/almadinagarissa/",
+        "https://www.facebook.com/AlMadinaRestaurantGarissa/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Wajir",
+  "restaurants": [
+    {
+      "name": "Wajir Guest House Restaurant",
+      "address": "Wajir Town Centre, Wajir County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Camel Meat Stew",
+          "description": "Traditional camel meat with local spices"
+        },
+        {
+          "name": "Grilled Chicken",
+          "description": "Tender chicken with Somali spices"
+        },
+        {
+          "name": "Rice Pilau",
+          "description": "Fragrant rice with vegetables and spices"
+        },
+        {
+          "name": "Vegetable Curry",
+          "description": "Mixed vegetables in coconut sauce"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Somali Tea",
+          "description": "Spiced tea with cardamom"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juices"
+        },
+        {
+          "name": "Camel Milk",
+          "description": "Fresh camel milk"
+        }
+      ],
+      "price_range": "800-1800 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/desert-hotel-restaurant",
+        "https://unsplash.com/photos/northeastern-dining-room"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@wajirguesthouse.com",
+      "website": "https://www.wajirguesthouse.com/",
+      "rating": 4.0,
+      "special_features": "Desert location, camel meat specialties, traditional setting",
+      "social_media": [
+        "https://www.instagram.com/wajirguesthouse/",
+        "https://www.facebook.com/WajirGuestHouse/"
+      ]
+    },
+    {
+      "name": "Desert Rose Restaurant",
+      "address": "Wajir Town, Wajir County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled meat with traditional spices"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Goat Stew",
+          "description": "Traditional goat meat stew"
+        },
+        {
+          "name": "Mandazi",
+          "description": "Traditional fried bread"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/desert-restaurant-interior",
+        "https://unsplash.com/photos/northeastern-african-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@desertrose.co.ke",
+      "website": "https://www.facebook.com/DesertRoseRestaurantWajir/",
+      "rating": 3.8,
+      "special_features": "Local cuisine, desert garden setting, cultural experience",
+      "social_media": [
+        "https://www.instagram.com/desertroserestaurantwajir/",
+        "https://www.facebook.com/DesertRoseRestaurantWajir/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Mandera",
+  "restaurants": [
+    {
+      "name": "Mandera Resort Restaurant",
+      "address": "Mandera Town Centre, Mandera County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Curry",
+          "description": "Chicken in coconut curry sauce"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with Swahili spices"
+        },
+        {
+          "name": "Vegetable Pilau",
+          "description": "Fragrant rice with mixed vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "Traditional Tea",
+          "description": "Spiced tea with local herbs"
+        }
+      ],
+      "price_range": "1000-2200 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/resort-restaurant-mandera",
+        "https://unsplash.com/photos/northeastern-dining-interior"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@mandera resort.com",
+      "website": "https://www.manderaresort.com/",
+      "rating": 4.0,
+      "special_features": "Border location, desert oasis, conference facilities",
+      "social_media": [
+        "https://www.instagram.com/manderaresort/",
+        "https://www.facebook.com/ManderaResort/"
+      ]
+    },
+    {
+      "name": "Oasis Restaurant",
+      "address": "Mandera Town, Mandera County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled meat with traditional spices"
+        },
+        {
+          "name": "Camel Stew",
+          "description": "Traditional camel meat stew"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Mandazi",
+          "description": "Traditional fried bread"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "600-1500 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/oasis-restaurant-interior",
+        "https://unsplash.com/photos/desert-dining-experience"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@oasisrestaurant.co.ke",
+      "website": "https://www.facebook.com/OasisRestaurantMandera/",
+      "rating": 3.9,
+      "special_features": "Traditional cuisine, oasis garden, local hospitality",
+      "social_media": [
+        "https://www.instagram.com/oasisrestaurantmandera/",
+        "https://www.facebook.com/OasisRestaurantMandera/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Marsabit",
+  "restaurants": [
+    {
+      "name": "Urban Restaurant",
+      "address": "Marsabit Town Centre, Marsabit County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Curry",
+          "description": "Chicken in coconut curry sauce"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with local spices"
+        },
+        {
+          "name": "Vegetable Stir-fry",
+          "description": "Fresh vegetables with rice"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "Traditional Tea",
+          "description": "Spiced tea with local herbs"
+        }
+      ],
+      "price_range": "1000-2200 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/urban-restaurant-marsabit",
+        "https://unsplash.com/photos/desert-town-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@urbanrestaurant.co.ke",
+      "website": "https://www.facebook.com/UrbanRestaurantMarsabit/",
+      "rating": 4.1,
+      "special_features": "Desert town location, diverse menu, modern amenities",
+      "social_media": [
+        "https://www.instagram.com/urbanrestaurantmarsabit/",
+        "https://www.facebook.com/UrbanRestaurantMarsabit/"
+      ]
+    },
+    {
+      "name": "Desert Rose Cafe",
+      "address": "Marsabit Town, Marsabit County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled meat with traditional spices"
+        },
+        {
+          "name": "Goat Stew",
+          "description": "Traditional goat meat stew"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Mandazi",
+          "description": "Traditional fried bread"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/desert-cafe-interior",
+        "https://unsplash.com/photos/marsabit-dining-experience"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@desertrosecafe.co.ke",
+      "website": "https://www.facebook.com/DesertRoseCafeMarsabit/",
+      "rating": 3.8,
+      "special_features": "Local cuisine, desert garden, traditional setting",
+      "social_media": [
+        "https://www.instagram.com/desertrosecafemarsabit/",
+        "https://www.facebook.com/DesertRoseCafeMarsabit/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Isiolo",
+  "restaurants": [
+    {
+      "name": "The Hills Restaurant",
+      "address": "Isiolo-Marsabit Road, Isiolo County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Curry",
+          "description": "Chicken in coconut curry sauce"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with local spices"
+        },
+        {
+          "name": "Vegetable Pilau",
+          "description": "Fragrant rice with mixed vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "Traditional Tea",
+          "description": "Spiced tea with local herbs"
+        }
+      ],
+      "price_range": "1000-2200 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/hills-restaurant-isiolo",
+        "https://unsplash.com/photos/highway-dining-kenya"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@thehillsrestaurant.co.ke",
+      "website": "https://www.facebook.com/TheHillsRestaurantIsiolo/",
+      "rating": 4.2,
+      "special_features": "Highway location, diverse menu, spacious setting",
+      "social_media": [
+        "https://www.instagram.com/thehillsrestaurantisiolo/",
+        "https://www.facebook.com/TheHillsRestaurantIsiolo/"
+      ]
+    },
+    {
+      "name": "Iman Restaurant",
+      "address": "Isiolo Town Centre, Isiolo County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled meat with traditional spices"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Goat Stew",
+          "description": "Traditional goat meat stew"
+        },
+        {
+          "name": "Mandazi",
+          "description": "Traditional fried bread"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/iman-restaurant-interior",
+        "https://unsplash.com/photos/isiolo-local-dining"
+      ],
+      "phone": "+254 746 444 665",
+      "email": "info@imanrestaurant.co.ke",
+      "website": "https://www.facebook.com/ImanRestaurantIsiolo/",
+      "rating": 4.0,
+      "special_features": "Local cuisine, central location, family-friendly",
+      "social_media": [
+        "https://www.instagram.com/imanrestaurantisiolo/",
+        "https://www.facebook.com/ImanRestaurantIsiolo/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Tharaka-Nithi",
+  "restaurants": [
+    {
+      "name": "Lowlands Hotel and Spa Restaurant",
+      "address": "Chuka Town, Tharaka-Nithi County",
+      "cuisine": "Continental",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with chef's vegetables"
+        },
+        {
+          "name": "Chicken Parmesan",
+          "description": "Breaded chicken with tomato and cheese"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with lemon butter sauce"
+        },
+        {
+          "name": "Vegetable Pasta",
+          "description": "Fresh pasta with seasonal vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Daily tropical fruit juices"
+        },
+        {
+          "name": "Coffee Selection",
+          "description": "Premium Kenyan and international coffee"
+        }
+      ],
+      "price_range": "1200-2800 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/lowlands-hotel-restaurant",
+        "https://unsplash.com/photos/chuka-dining-room"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@lowlandshotel.co.ke",
+      "website": "https://www.lowlandshotel.co.ke/",
+      "rating": 4.3,
+      "special_features": "Spa services, modern amenities, conference facilities",
+      "social_media": [
+        "https://www.instagram.com/lowlandshotelspa/",
+        "https://www.facebook.com/LowlandsHotelSpa/"
+      ]
+    },
+    {
+      "name": "Hill Top Bar & Restaurant",
+      "address": "Meru-Nairobi Highway, Mitheru, Tharaka-Nithi County",
+      "cuisine": "Kenyan",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled meat with traditional spices"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Chicken Stew",
+          "description": "Traditional chicken stew with vegetables"
+        },
+        {
+          "name": "Irio",
+          "description": "Mashed peas and potatoes with corn"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 24 hours",
+        "Tuesday: 24 hours",
+        "Wednesday: 24 hours",
+        "Thursday: 24 hours",
+        "Friday: 24 hours",
+        "Saturday: 24 hours",
+        "Sunday: 24 hours"
+      ],
+      "images": [
+        "https://unsplash.com/photos/hilltop-restaurant-kenya",
+        "https://unsplash.com/photos/highway-dining-tharaka"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@hilltoprestaurant.co.ke",
+      "website": "https://www.facebook.com/HillTopBarRestaurant/",
+      "rating": 4.0,
+      "special_features": "24-hour service, highway location, mountain views",
+      "social_media": [
+        "https://www.instagram.com/hilltopbarrestaurant/",
+        "https://www.facebook.com/HillTopBarRestaurant/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Kitui",
+  "restaurants": [
+    {
+      "name": "Mwingi Resort Restaurant",
+      "address": "Mwingi Town, Kitui County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Curry",
+          "description": "Chicken in coconut curry sauce"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with local spices"
+        },
+        {
+          "name": "Vegetable Pilau",
+          "description": "Fragrant rice with mixed vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "Traditional Tea",
+          "description": "Spiced tea with local herbs"
+        }
+      ],
+      "price_range": "1000-2200 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/resort-restaurant-kitui",
+        "https://unsplash.com/photos/eastern-kenya-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@mwingiresort.com",
+      "website": "https://www.mwingiresort.com/",
+      "rating": 4.1,
+      "special_features": "Resort setting, pool facilities, conference center",
+      "social_media": [
+        "https://www.instagram.com/mwingiresort/",
+        "https://www.facebook.com/MwingiResort/"
+      ]
+    },
+    {
+      "name": "Kitui Town Restaurant",
+      "address": "Kitui Town Centre, Kitui County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled meat with traditional spices"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Goat Stew",
+          "description": "Traditional goat meat stew"
+        },
+        {
+          "name": "Mukimo",
+          "description": "Traditional mashed potatoes with greens"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/kitui-town-restaurant",
+        "https://unsplash.com/photos/eastern-kenya-local-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@kituitownrestaurant.co.ke",
+      "website": "https://www.facebook.com/KituiTownRestaurant/",
+      "rating": 3.8,
+      "special_features": "Local Kamba cuisine, central location, affordable prices",
+      "social_media": [
+        "https://www.instagram.com/kituitownrestaurant/",
+        "https://www.facebook.com/KituiTownRestaurant/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Makueni",
+  "restaurants": [
+    {
+      "name": "Sparrows Restaurant & Lounge",
+      "address": "Wote Town, Makueni County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Chicken",
+          "description": "Tender chicken with African herbs and spices"
+        },
+        {
+          "name": "Beef Steak",
+          "description": "Premium beef cut with seasonal vegetables"
+        },
+        {
+          "name": "Fish Curry",
+          "description": "Fresh fish in coconut curry sauce"
+        },
+        {
+          "name": "Vegetable Pilau",
+          "description": "Fragrant rice with mixed vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        }
+      ],
+      "price_range": "800-1800 KES pp",
+      "operating_hours": [
+        "Monday: 8:00am - 10:00pm",
+        "Tuesday: 8:00am - 10:00pm",
+        "Wednesday: 8:00am - 10:00pm",
+        "Thursday: 8:00am - 10:00pm",
+        "Friday: 8:00am - 11:00pm",
+        "Saturday: 8:00am - 11:00pm",
+        "Sunday: 8:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/sparrows-restaurant-interior",
+        "https://unsplash.com/photos/wote-town-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@sparrowsrestaurant.co.ke",
+      "website": "https://www.facebook.com/SparrowsRestaurantWote/",
+      "rating": 4.0,
+      "special_features": "Lounge atmosphere, live music on weekends, modern setting",
+      "social_media": [
+        "https://www.instagram.com/sparrowsrestaurantwote/",
+        "https://www.facebook.com/SparrowsRestaurantWote/"
+      ]
+    },
+    {
+      "name": "Brick House Restaurant",
+      "address": "Near Makueni Police Station, Wote, Makueni County",
+      "cuisine": "Kenyan",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled goat meat with kachumbari salad"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Chicken Stew",
+          "description": "Traditional chicken stew with vegetables"
+        },
+        {
+          "name": "Mukimo",
+          "description": "Traditional mashed potatoes with greens"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk from local farms"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal tropical fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/brick-house-restaurant",
+        "https://unsplash.com/photos/makueni-traditional-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@brickhouseresto.co.ke",
+      "website": "https://www.facebook.com/BrickHouseRestaurant/",
+      "rating": 3.8,
+      "special_features": "Traditional Kamba cuisine, family-friendly, affordable prices",
+      "social_media": [
+        "https://www.instagram.com/brickhouseresto/",
+        "https://www.facebook.com/BrickHouseRestaurant/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Nyandarua",
+  "restaurants": [
+    {
+      "name": "The Mood Hotel and Restaurant",
+      "address": "Gilgil-Nyahururu Road, Ol Kalou, Nyandarua County",
+      "cuisine": "Continental",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Cordon Bleu",
+          "description": "Stuffed chicken breast with ham and cheese"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with lemon butter sauce"
+        },
+        {
+          "name": "Vegetable Lasagna",
+          "description": "Layered pasta with fresh vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Daily tropical fruit juices"
+        },
+        {
+          "name": "Coffee Selection",
+          "description": "Premium Kenyan and international coffee"
+        }
+      ],
+      "price_range": "1200-2500 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/mood-hotel-restaurant",
+        "https://unsplash.com/photos/ol-kalou-dining-room"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@themoodhotel.com",
+      "website": "https://www.themoodhotel.co.ke/",
+      "rating": 4.2,
+      "special_features": "Mountain views, government offices nearby, modern facilities",
+      "social_media": [
+        "https://www.instagram.com/themoodhotel/",
+        "https://www.facebook.com/TheMoodHotelNyandarua/"
+      ]
+    },
+    {
+      "name": "Tausi Gardens Restaurant",
+      "address": "Kabarnet Town, Baringo Road, Nyandarua County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled goat meat with kachumbari salad"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Chicken Stew",
+          "description": "Traditional chicken stew with vegetables"
+        },
+        {
+          "name": "Mukimo",
+          "description": "Traditional mashed potatoes with greens"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk from local farms"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal tropical fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "600-1500 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/tausi-gardens-restaurant",
+        "https://unsplash.com/photos/nyandarua-traditional-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@tausigardens.co.ke",
+      "website": "https://www.facebook.com/TausiGardensRestaurant/",
+      "rating": 4.0,
+      "special_features": "Garden setting, traditional Kikuyu cuisine, peaceful atmosphere",
+      "social_media": [
+        "https://www.instagram.com/tausigardensrestaurant/",
+        "https://www.facebook.com/TausiGardensRestaurant/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Nandi",
+  "restaurants": [
+    {
+      "name": "Golden Palms Steakhouse and Restaurant",
+      "address": "Opposite Total Petrol Station, Kapsabet Town, Nandi County",
+      "cuisine": "Steakhouse",
+      "dishes": [
+        {
+          "name": "Prime Ribeye Steak",
+          "description": "Premium beef cut with chef's special seasoning"
+        },
+        {
+          "name": "Grilled Chicken Breast",
+          "description": "Tender chicken with African herb marinade"
+        },
+        {
+          "name": "Fish Fillet",
+          "description": "Fresh fish with lemon butter sauce"
+        },
+        {
+          "name": "Beef Burger",
+          "description": "Premium beef patty with fresh vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Daily tropical fruit juices"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        }
+      ],
+      "price_range": "1000-2200 KES pp",
+      "operating_hours": [
+        "Monday: 8:00am - 10:00pm",
+        "Tuesday: 8:00am - 10:00pm",
+        "Wednesday: 8:00am - 10:00pm",
+        "Thursday: 8:00am - 10:00pm",
+        "Friday: 8:00am - 11:00pm",
+        "Saturday: 8:00am - 11:00pm",
+        "Sunday: 8:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/golden-palms-steakhouse",
+        "https://unsplash.com/photos/kapsabet-dining-interior"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@goldenpalms.co.ke",
+      "website": "https://www.facebook.com/GoldenPalmsSteakhouse/",
+      "rating": 4.3,
+      "special_features": "Best steaks in Nandi, modern steakhouse, prime location",
+      "social_media": [
+        "https://www.instagram.com/goldenpalmssteakhouse/",
+        "https://www.facebook.com/GoldenPalmsSteakhouse/"
+      ]
+    },
+    {
+      "name": "Carmax Hotel Chepterit Restaurant",
+      "address": "Chepterit, Kapsabet, Nandi County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Traditional grilled meat with kachumbari"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Chicken Stew",
+          "description": "Traditional chicken stew with vegetables"
+        },
+        {
+          "name": "Mukimo",
+          "description": "Traditional mashed potatoes with greens"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk from local farms"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal tropical fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "600-1500 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/carmax-hotel-restaurant",
+        "https://unsplash.com/photos/nandi-traditional-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@carmaxhotel.co.ke",
+      "website": "https://www.facebook.com/CarmaxHotelChepterit/",
+      "rating": 4.0,
+      "special_features": "Traditional Nandi cuisine, hotel facilities, local hospitality",
+      "social_media": [
+        "https://www.instagram.com/carmaxhotelchepterit/",
+        "https://www.facebook.com/CarmaxHotelChepterit/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Baringo",
+  "restaurants": [
+    {
+      "name": "AJ Garden Restaurant",
+      "address": "Kabarnet Town, Baringo County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Parmesan",
+          "description": "Breaded chicken with tomato and cheese"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with lemon butter sauce"
+        },
+        {
+          "name": "Vegetable Pasta",
+          "description": "Fresh pasta with seasonal vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Daily tropical fruit juices"
+        },
+        {
+          "name": "Coffee Selection",
+          "description": "Premium Kenyan and international coffee"
+        }
+      ],
+      "price_range": "1000-2200 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/aj-garden-restaurant",
+        "https://unsplash.com/photos/kabarnet-dining-room"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@ajgardenrestaurant.co.ke",
+      "website": "https://www.facebook.com/AJGardenRestaurant/",
+      "rating": 5.0,
+      "special_features": "Garden setting, excellent service, top-rated in Baringo",
+      "social_media": [
+        "https://www.instagram.com/ajgardenrestaurant/",
+        "https://www.facebook.com/AJGardenRestaurant/"
+      ]
+    },
+    {
+      "name": "The Kirwa's Butchery & Restaurant",
+      "address": "Kabarnet Town, Baringo County",
+      "cuisine": "Steakhouse",
+      "dishes": [
+        {
+          "name": "Prime Beef Steak",
+          "description": "Premium beef from local cattle with traditional sides"
+        },
+        {
+          "name": "Grilled Lamb",
+          "description": "Tender lamb with mint sauce and vegetables"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Lake Baringo fish with lemon butter sauce"
+        },
+        {
+          "name": "Chicken Skewers",
+          "description": "Marinated chicken pieces with vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "800-1800 KES pp",
+      "operating_hours": [
+        "Monday: 8:00am - 10:00pm",
+        "Tuesday: 8:00am - 10:00pm",
+        "Wednesday: 8:00am - 10:00pm",
+        "Thursday: 8:00am - 10:00pm",
+        "Friday: 8:00am - 11:00pm",
+        "Saturday: 8:00am - 11:00pm",
+        "Sunday: 8:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/kirwas-butchery-restaurant",
+        "https://unsplash.com/photos/baringo-steakhouse-interior"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@thekirwas.co.ke",
+      "website": "https://www.facebook.com/TheKirwasButcheryRestaurant/",
+      "rating": 4.1,
+      "special_features": "Fresh meat specialties, butchery attached, local beef",
+      "social_media": [
+        "https://www.instagram.com/thekirwasrestaurant/",
+        "https://www.facebook.com/TheKirwasButcheryRestaurant/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Laikipia",
+  "restaurants": [
+    {
+      "name": "Trout Tree Restaurant",
+      "address": "Nanyuki Town, Laikipia County",
+      "cuisine": "Seafood",
+      "dishes": [
+        {
+          "name": "Grilled Trout",
+          "description": "Fresh mountain trout with lemon butter sauce"
+        },
+        {
+          "name": "Trout Almondine",
+          "description": "Pan-fried trout with toasted almonds"
+        },
+        {
+          "name": "Seafood Platter",
+          "description": "Mixed seafood including prawns and calamari"
+        },
+        {
+          "name": "Fish Curry",
+          "description": "Fresh fish in coconut curry sauce"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "White Wine",
+          "description": "Selection of premium white wines"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        }
+      ],
+      "price_range": "1500-3000 KES pp",
+      "operating_hours": [
+        "Monday: 11:00am - 10:00pm",
+        "Tuesday: 11:00am - 10:00pm",
+        "Wednesday: 11:00am - 10:00pm",
+        "Thursday: 11:00am - 10:00pm",
+        "Friday: 11:00am - 11:00pm",
+        "Saturday: 11:00am - 11:00pm",
+        "Sunday: 11:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/trout-tree-restaurant",
+        "https://unsplash.com/photos/nanyuki-mountain-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@trouttree.co.ke",
+      "website": "https://www.facebook.com/TroutTreeRestaurant/",
+      "rating": 4.3,
+      "special_features": "Fresh trout specialty, treehouse setting, mountain views",
+      "social_media": [
+        "https://www.instagram.com/trouttreerestaurant/",
+        "https://www.facebook.com/TroutTreeRestaurant/"
+      ]
+    },
+    {
+      "name": "Pine & Dine Nanyuki",
+      "address": "Nanyuki Town Centre, Laikipia County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with chef's special seasoning"
+        },
+        {
+          "name": "Chicken Parmesan",
+          "description": "Breaded chicken with tomato and cheese"
+        },
+        {
+          "name": "Fresh Pasta",
+          "description": "Homemade pasta with seasonal vegetables"
+        },
+        {
+          "name": "Vegetable Curry",
+          "description": "Mixed vegetables in coconut curry"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Daily tropical fruit juices"
+        },
+        {
+          "name": "Craft Cocktails",
+          "description": "Signature mixed drinks"
+        }
+      ],
+      "price_range": "1200-2500 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/pine-dine-nanyuki",
+        "https://unsplash.com/photos/nanyuki-elegant-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@pineanddine.co.ke",
+      "website": "https://www.facebook.com/PineAndDineNanyuki/",
+      "rating": 5.0,
+      "special_features": "Elegant ambiance, perfect ratings, romantic setting",
+      "social_media": [
+        "https://www.instagram.com/pineanddinenanyuki/",
+        "https://www.facebook.com/PineAndDineNanyuki/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Samburu",
+  "restaurants": [
+    {
+      "name": "Samburu Restaurant",
+      "address": "Maralal Town Centre, Samburu County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled meat with traditional Samburu spices"
+        },
+        {
+          "name": "Camel Stew",
+          "description": "Traditional camel meat stew with local herbs"
+        },
+        {
+          "name": "Goat Curry",
+          "description": "Tender goat meat in coconut curry"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk from local herds"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal tropical fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "600-1500 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/samburu-restaurant-interior",
+        "https://unsplash.com/photos/maralal-traditional-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@sambururestaurant.co.ke",
+      "website": "https://www.facebook.com/SamburuRestaurantMaralal/",
+      "rating": 4.2,
+      "special_features": "Authentic Samburu cuisine, cultural experience, local hospitality",
+      "social_media": [
+        "https://www.instagram.com/sambururestaurantmaralal/",
+        "https://www.facebook.com/SamburuRestaurantMaralal/"
+      ]
+    },
+    {
+      "name": "Zebra Inn Restaurant",
+      "address": "Maralab Town, Samburu County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Curry",
+          "description": "Chicken in coconut curry sauce"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with local spices"
+        },
+        {
+          "name": "Vegetable Stir-fry",
+          "description": "Fresh vegetables with rice"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        }
+      ],
+      "price_range": "1000-2200 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/zebra-inn-restaurant",
+        "https://unsplash.com/photos/maralal-international-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@zebrainn.co.ke",
+      "website": "https://www.facebook.com/ZebraInnMaralal/",
+      "rating": 4.0,
+      "special_features": "Wildlife theme, diverse menu, comfortable accommodation",
+      "social_media": [
+        "https://www.instagram.com/zebrainnmaralal/",
+        "https://www.facebook.com/ZebraInnMaralal/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Trans-Nzoia",
+  "restaurants": [
+    {
+      "name": "Sirwo Resort Restaurant",
+      "address": "Sibanga Trading Centre, Kitale-Maili Nane-Cherangani Road, Trans-Nzoia County",
+      "cuisine": "Continental",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with Cherangany Hills herbs"
+        },
+        {
+          "name": "Chicken Cordon Bleu",
+          "description": "Stuffed chicken breast with ham and cheese"
+        },
+        {
+          "name": "Fresh Trout",
+          "description": "Local trout with lemon butter sauce"
+        },
+        {
+          "name": "Vegetable Medley",
+          "description": "Fresh seasonal vegetables from local farms"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juices from local orchards"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "House Wine",
+          "description": "Selection of international wines"
+        }
+      ],
+      "price_range": "1200-2800 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/sirwo-resort-restaurant",
+        "https://unsplash.com/photos/cherangany-hills-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@sirworesort.com",
+      "website": "https://www.sirworesort.com/",
+      "rating": 4.5,
+      "special_features": "Mountain views, hacienda-style building, farm-to-table concept",
+      "social_media": [
+        "https://www.instagram.com/sirworesort/",
+        "https://www.facebook.com/SirwoResort/"
+      ]
+    },
+    {
+      "name": "Sarini Bistro",
+      "address": "Kitale Town Centre, Trans-Nzoia County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Mediterranean Chicken",
+          "description": "Chicken with Mediterranean herbs and spices"
+        },
+        {
+          "name": "Beef Stew",
+          "description": "Traditional beef stew with local vegetables"
+        },
+        {
+          "name": "Fresh Pasta",
+          "description": "Homemade pasta with seasonal vegetables"
+        },
+        {
+          "name": "Vegetable Curry",
+          "description": "Mixed vegetables in coconut curry"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Daily selection of tropical fruit juices"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        }
+      ],
+      "price_range": "800-1800 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 10:00pm",
+        "Tuesday: 7:00am - 10:00pm",
+        "Wednesday: 7:00am - 10:00pm",
+        "Thursday: 7:00am - 10:00pm",
+        "Friday: 7:00am - 11:00pm",
+        "Saturday: 7:00am - 11:00pm",
+        "Sunday: 7:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/sarini-bistro-interior",
+        "https://unsplash.com/photos/kitale-modern-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@sarini-bistro.com",
+      "website": "https://www.facebook.com/SariniBistro/",
+      "rating": 4.2,
+      "special_features": "Mediterranean-Kenyan fusion, central location, diverse menu",
+      "social_media": [
+        "https://www.instagram.com/sarini_bistro/",
+        "https://www.facebook.com/SariniBistro/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Homa Bay",
+  "restaurants": [
+    {
+      "name": "Kip's Restaurant",
+      "address": "Homa Bay Town Centre, Homa Bay County",
+      "cuisine": "Seafood",
+      "dishes": [
+        {
+          "name": "Lake Victoria Tilapia",
+          "description": "Fresh tilapia from Lake Victoria with local spices"
+        },
+        {
+          "name": "Fish Curry",
+          "description": "Fresh fish in coconut curry sauce"
+        },
+        {
+          "name": "Grilled Prawns",
+          "description": "Large prawns with garlic butter"
+        },
+        {
+          "name": "Seafood Pilau",
+          "description": "Swahili spiced rice with mixed seafood"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Coconut Water",
+          "description": "Chilled coconut served in shell"
+        },
+        {
+          "name": "Tropical Juice",
+          "description": "Blend of fresh tropical fruits"
+        },
+        {
+          "name": "White Wine",
+          "description": "Selection of premium white wines"
+        }
+      ],
+      "price_range": "1000-2500 KES pp",
+      "operating_hours": [
+        "Monday: 11:00am - 10:00pm",
+        "Tuesday: 11:00am - 10:00pm",
+        "Wednesday: 11:00am - 10:00pm",
+        "Thursday: 11:00am - 10:00pm",
+        "Friday: 11:00am - 11:00pm",
+        "Saturday: 11:00am - 11:00pm",
+        "Sunday: 11:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/kips-restaurant-homabay",
+        "https://unsplash.com/photos/lake-victoria-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@kipsrestaurant.co.ke",
+      "website": "https://www.facebook.com/KipsRestaurantHomaBay/",
+      "rating": 4.2,
+      "special_features": "Lake Victoria fish specialties, lakeside location, fresh daily catch",
+      "social_media": [
+        "https://www.instagram.com/kipsrestaurant/",
+        "https://www.facebook.com/KipsRestaurantHomaBay/"
+      ]
+    },
+    {
+      "name": "Homa Bay Tourist Hotel Restaurant",
+      "address": "Homa Bay Town, Homa Bay County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Parmesan",
+          "description": "Breaded chicken with tomato and cheese"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch with lemon butter sauce"
+        },
+        {
+          "name": "Vegetable Pasta",
+          "description": "Fresh pasta with seasonal vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Daily tropical fruit juices"
+        },
+        {
+          "name": "Coffee Selection",
+          "description": "Premium Kenyan and international coffee"
+        }
+      ],
+      "price_range": "1200-2500 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/homa-bay-tourist-hotel",
+        "https://unsplash.com/photos/homabay-dining-room"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@homabaytouristhotel.com",
+      "website": "https://www.homabaytouristhotel.com/",
+      "rating": 4.0,
+      "special_features": "Tourist hotel, conference facilities, lake views",
+      "social_media": [
+        "https://www.instagram.com/homabaytouristhotel/",
+        "https://www.facebook.com/HomaBayTouristHotel/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Migori",
+  "restaurants": [
+    {
+      "name": "Suncity Resort Restaurant",
+      "address": "Migori Town, Migori County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Curry",
+          "description": "Chicken in coconut curry sauce"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch from Lake Victoria with local spices"
+        },
+        {
+          "name": "Vegetable Pilau",
+          "description": "Fragrant rice with mixed vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Juice",
+          "description": "Tropical fruit juice blends"
+        },
+        {
+          "name": "Local Beer",
+          "description": "Kenyan beer selection"
+        },
+        {
+          "name": "Traditional Tea",
+          "description": "Spiced tea with local herbs"
+        }
+      ],
+      "price_range": "1000-2200 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/suncity-resort-migori",
+        "https://unsplash.com/photos/migori-resort-dining"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@suncityresort.co.ke",
+      "website": "https://www.suncityresort.co.ke/",
+      "rating": 4.1,
+      "special_features": "Resort facilities, conference center, modern amenities",
+      "social_media": [
+        "https://www.instagram.com/suncityresortmigori/",
+        "https://www.facebook.com/SuncityResortMigori/"
+      ]
+    },
+    {
+      "name": "Migori Town Restaurant",
+      "address": "Migori Town Centre, Migori County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled meat with traditional Luo spices"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Chicken Stew",
+          "description": "Traditional chicken stew with vegetables"
+        },
+        {
+          "name": "Mukimo",
+          "description": "Traditional mashed potatoes with greens"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/migori-town-restaurant",
+        "https://unsplash.com/photos/migori-traditional-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@migoritownrestaurant.co.ke",
+      "website": "https://www.facebook.com/MigoriTownRestaurant/",
+      "rating": 3.8,
+      "special_features": "Traditional Luo cuisine, local hospitality, affordable prices",
+      "social_media": [
+        "https://www.instagram.com/migoritownrestaurant/",
+        "https://www.facebook.com/MigoriTownRestaurant/"
+      ]
+    }
+  ]
+},
+{
+  "county": "Siaya",
+  "restaurants": [
+    {
+      "name": "The Royal City Gardens Hotel Restaurant",
+      "address": "Bondo Town, Siaya County",
+      "cuisine": "International",
+      "dishes": [
+        {
+          "name": "Grilled Steak",
+          "description": "Premium beef with seasonal vegetables"
+        },
+        {
+          "name": "Chicken Curry",
+          "description": "Chicken in coconut curry sauce"
+        },
+        {
+          "name": "Fresh Fish",
+          "description": "Daily catch from Lake Victoria with local spices"
+        },
+        {
+          "name": "Vegetable Pasta",
+          "description": "Fresh pasta with seasonal vegetables"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "House Wine",
+          "description": "Selection of red and white wines"
+        },
+        {
+          "name": "Fresh Juice",
+          "description": "Daily tropical fruit juices"
+        },
+        {
+          "name": "Coffee Selection",
+          "description": "Premium Kenyan and international coffee"
+        }
+      ],
+      "price_range": "1200-2500 KES pp",
+      "operating_hours": [
+        "Monday: 6:00am - 10:00pm",
+        "Tuesday: 6:00am - 10:00pm",
+        "Wednesday: 6:00am - 10:00pm",
+        "Thursday: 6:00am - 10:00pm",
+        "Friday: 6:00am - 11:00pm",
+        "Saturday: 6:00am - 11:00pm",
+        "Sunday: 6:00am - 10:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/royal-city-gardens-hotel",
+        "https://unsplash.com/photos/bondo-dining-room"
+      ],
+      "phone": "+254 722 123 456",
+      "email": "info@royalcitygardens.com",
+      "website": "https://www.royalcitygardens.com/",
+      "rating": 4.2,
+      "special_features": "Luxury hotel, garden setting, conference facilities",
+      "social_media": [
+        "https://www.instagram.com/royalcitygardenshotel/",
+        "https://www.facebook.com/RoyalCityGardensHotel/"
+      ]
+    },
+    {
+      "name": "Bondo Town Restaurant",
+      "address": "Bondo Town Centre, Siaya County",
+      "cuisine": "African",
+      "dishes": [
+        {
+          "name": "Nyama Choma",
+          "description": "Grilled meat with traditional Luo spices"
+        },
+        {
+          "name": "Ugali and Sukuma",
+          "description": "Maize meal with collard greens"
+        },
+        {
+          "name": "Chicken Stew",
+          "description": "Traditional chicken stew with vegetables"
+        },
+        {
+          "name": "Mukimo",
+          "description": "Traditional mashed potatoes with greens"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Fresh Milk",
+          "description": "Fresh dairy milk"
+        },
+        {
+          "name": "Fruit Juice",
+          "description": "Seasonal fruit juices"
+        },
+        {
+          "name": "Traditional Brew",
+          "description": "Local fermented drink"
+        }
+      ],
+      "price_range": "500-1200 KES pp",
+      "operating_hours": [
+        "Monday: 7:00am - 9:00pm",
+        "Tuesday: 7:00am - 9:00pm",
+        "Wednesday: 7:00am - 9:00pm",
+        "Thursday: 7:00am - 9:00pm",
+        "Friday: 7:00am - 10:00pm",
+        "Saturday: 7:00am - 10:00pm",
+        "Sunday: 7:00am - 9:00pm"
+      ],
+      "images": [
+        "https://unsplash.com/photos/bondo-town-restaurant",
+        "https://unsplash.com/photos/siaya-traditional-dining"
+      ],
+      "phone": "+254 722 987 654",
+      "email": "info@bondotownrestaurant.co.ke",
+      "website": "https://www.facebook.com/BondoTownRestaurant/",
+      "rating": 3.9,
+      "special_features": "Traditional Luo cuisine, local hospitality, affordable prices",
+      "social_media": [
+        "https://www.instagram.com/bondotownrestaurant/",
+        "https://www.facebook.com/BondoTownRestaurant/"
+      ]
+    }
+  ]
+}
+]
+}
