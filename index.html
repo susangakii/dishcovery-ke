@@ -1,24 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DishCovery KE</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <div class="container">
         <header class="header">
-            <h1>DishCovery KE</h1>
+            <h1>🍽️ DishCovery KE</h1>
             <p>Find Your Next Bite, Fast.</p>
         </header>
 
         <main class="main-content">
-            
+            <aside class="filters-sidebar">
+                <h2>Filter Results</h2>
+
+                <div class="filter-group">
+                    <label for="cuisine-filter">Cuisine Type:</label>
+                    <select id="cuisine-filter">
+                        <option value="">All Cuisines</option>
+
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="price-filter">Price Range:</label>
+                    <select id="price-filter">
+                        <option value="">All Prices</option>
+                        <option value="low">Low (Under 1500 KES)</option>
+                        <option value="medium">Medium (1500-3000 KES)</option>
+                        <option value="high">High (Above 3000 KES)</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="rating-filter">Rating:</label>
+                    <select id="rating-filter">
+                        <option value="">All Ratings</option>
+                        <option value="4.5">4.5+ Stars</option>
+                        <option value="4.0">4.0+ Stars</option>
+                        <option value="3.5">3.5+ Stars</option>
+                    </select>
+                </div>
+
+                <div class="filter-buttons">
+                    <button id="search-btn">Apply Filters</button>
+                    <button id="reset-btn">Reset Filters</button>
+                </div>
+
+            </aside>
+
+            <section class="input-values">
+                <h2>Find Your Perfect Dish</h2>
+                <div class="input-group">
+                    <label for="county-select">County:</label>
+                    <select id="county-select">
+                        <option value="" hidden>Select County</option>
+                        <option value="">All Counties</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="dish-input">Dish Name:</label>
+                    <input type="text" id="dish-input" placeholder="e.g., Ravioli, Nyama Choma, Sukuma Wiki">
+                </div>
+
+                <div class="submit-button">
+                    <button type="submit" id="submit-btn">Begin Search</button>
+                </div>
+            </section>
+
+            <section class="results-section">
+                <div id="results-container" class="results-grid">
+                    <h2>Featured Restaurants:</h2>
+                </div>
+            </section>
+
         </main>
+
+        <footer>
+            <p class="copyright">&copy; 2025 DishCovery KE. All rights reserved.</p>
+        </footer>
 
     </div>
 
     <script src="js/index.js"></script>
 </body>
+
 </html>
