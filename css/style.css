@@ -1,4 +1,4 @@
-/*base styles */
+/* base styles */
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +34,7 @@ body {
 .header h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+    font-weight: 700;
 }
 
 .header p {
@@ -41,65 +42,76 @@ body {
     opacity: 0.9;
 }
 
-/* filters topbar */
+/* filter button in top-right */
 .filters-sidebar {
-    width: 180px;
-    margin: 1rem 0 2rem auto; 
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    overflow: hidden;
-    background: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: absolute;   
-    top: calc(100px + 5rem); 
-    left: 0.5rem; 
-    z-index: 10; 
-    font-size: 0.85rem;
+    position: absolute;
+    top: calc(100px + 4rem);
+    right: 20px;
+    z-index: 10;
 }
 
 .filters-sidebar h2 {
-    background-color: #f5f5f5;
-    padding: 10px 12px;
     margin: 0;
+    padding: 8px 12px;
     cursor: pointer;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    font-size: 1rem;
+    gap: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: white;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s;
 }
 
 .filters-sidebar h2:hover {
-    background-color: #e9e9e9;
+    background-color: #f8f9fa;
 }
 
+/* small 3-line icon */
+.filters-sidebar h2::before {
+    content: "";
+    width: 14px;
+    height: 1.5px;
+    background: #333;
+    box-shadow: 0 4px 0 #333, 0 8px 0 #333;
+    display: block;
+}
+
+/* hide dropdown arrow */
 .filters-sidebar h2::after {
-    content: "▼";
-    font-size: 0.8rem;
-    transition: transform 0.3s ease;
+    display: none;
 }
 
-.filters-sidebar.collapsed h2::after {
-    transform: rotate(-90deg);
-}
-
+/* filter dropdown panel */
 .filter-form {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-    padding: 0 15px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 320px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-top: 8px;
 }
 
+/* show dropdown when expanded */
 .filters-sidebar:not(.collapsed) .filter-form {
-    max-height: 500px;
-    padding: 15px;
+    display: block;
 }
 
 .filter-form-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 }
 
 .filter-group {
@@ -108,24 +120,35 @@ body {
 
 .filter-group label {
     display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 0.9rem;
 }
 
 .filter-group select {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: #f8f9fa;
+    font-size: 0.9rem;
 }
 
 .filter-buttons {
     display: flex;
     gap: 10px;
     margin-top: 15px;
-    grid-column: 1 / -1;
+}
+
+.filter-buttons button {
+    flex: 1;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 /* main content - one column layout */
@@ -162,7 +185,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     min-height: 500px;
-    margin-top: 60px;
+    margin-top: 15px;
 }
 
 .like-section h2 {
@@ -276,7 +299,7 @@ footer {
     margin: 0;
 }
 
-/* responsive design (adjusted based on device used to load) */
+/* responsive design */
 @media (max-width: 1200px) {
     .main-content {
         grid-template-columns: 500px 1fr;
@@ -291,7 +314,7 @@ footer {
         gap: 1.5rem;
     }
     
-    .filters-sidebar, .input-values {
+    .input-values {
         height: auto;
     }
 }
@@ -309,25 +332,24 @@ footer {
         gap: 1rem;
     }
     
-    .filters-sidebar, .input-values, .results-section {
+    .input-values, .results-section {
         padding: 1rem;
     }
     
     .input-values {
         width: 90%;             
         margin: 1rem auto;      
-        top: 3rem;              
-        left: auto;             
         position: relative;     
     }
 
     .filters-sidebar {
-        position: absolute;
-        top: 9rem;
-        right: auto;
-        left: auto;
-        width: 50%;        
-        margin: rem auto;   
+        top: calc(100px + 3.2rem);
+        right: 15px;
+    }
+    
+    .filter-form {
+        width: 280px;
+        right: -50px;
     }
 
     .results-grid {
