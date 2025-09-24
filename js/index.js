@@ -84,6 +84,7 @@ function populateCuisineDropdown() {
     });
 }
 
+//display recommendations in the "you might like this" section 
 function displayRecommendations() {
     const likeContainer = document.getElementById('like-container');
     likeContainer.innerHTML = '<h2>You Might Like These:</h2>';
@@ -97,7 +98,20 @@ function displayRecommendations() {
         }
     });
 
-    displayRestaurantsInContainer(recommended, 'like-container', false);
+   
+}
+
+//reset the filters
+function resetFilters() {
+    document.getElementById('county-select').value = '';
+    document.getElementById('dish-input').value = '';
+    document.getElementById('cuisine-filter').value = '';
+    document.getElementById('price-filter').value = '';
+    document.getElementById('rating-filter').value = '';
+    
+    filteredRestaurants = [];
+    hideResultsSection();
+    displayRecommendations();
 }
 
 //hide the results section/featured restaurants section upon initial page load
