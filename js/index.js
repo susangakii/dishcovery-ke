@@ -84,9 +84,34 @@ function populateCuisineDropdown() {
     });
 }
 
+function displayRecommendations() {
+    const likeContainer = document.getElementById('like-container');
+    likeContainer.innerHTML = '<h2>You Might Like These:</h2>';
+    
+    const recommended = [];
+    allRestaurants.slice(0, 5).forEach(countyData => {
+        if (countyData.restaurants && countyData.restaurants.length > 0) {
+            recommended.push({
+                ...countyData.restaurants[Math.floor(Math.random() * countyData.restaurants.length)], county: countyData.county
+            });
+        }
+    });
+
+    displayRestaurantsInContainer(recommended, 'like-container', false);
+}
+
+//hide the results section/featured restaurants section upon initial page load
+function hideResultsSection() {
+    document.querySelector('.results-section').classList.remove('show');
+    document.querySelector('.results-section').style.display = 'none';
+}
+
+
 /****************************************************************************************/
 //ASYNC FUNCTIONS
-// shows featured restaurants on the initial page load
+// shows recommended restaurants on the initial page load
+
+
 
 //collapse and uncollapse the filter button at the top pf the page
 function toggleFilter() {
@@ -98,5 +123,6 @@ function toggleFilter() {
 //EVENT LISTENERS
 document.addEventListener("DOMContentLoaded", function () {
     loadInitialData();
+    hideResultsSection();
 });
 
