@@ -16,6 +16,43 @@
         </header>
 
         <main class="main-content">
+            <aside class="filters-sidebar collapsed">
+                <h2 onclick="toggleFilter()">Filter Results</h2>
+                <div class="filter-form">
+                    <div class="filter-group">
+                        <label for="cuisine-filter">Cuisine Type:</label>
+                        <select id="cuisine-filter">
+                            <option value="">All Cuisines</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="price-filter">Price Range:</label>
+                        <select id="price-filter">
+                            <option value="">All Prices</option>
+                            <option value="low">Low (Under 1500 KES)</option>
+                            <option value="medium">Medium (1500-3000 KES)</option>
+                            <option value="high">High (Above 3000 KES)</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="rating-filter">Rating:</label>
+                        <select id="rating-filter">
+                            <option value="">All Ratings</option>
+                            <option value="4.5">4.5+ Stars</option>
+                            <option value="4.0">4.0+ Stars</option>
+                            <option value="3.5">3.5+ Stars</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-buttons">
+                        <button id="search-btn">Apply Filters</button>
+                        <button id="reset-btn">Reset Filters</button>
+                    </div>
+                </div>
+            </aside>
+
             <section class="input-values">
                 <h2>Find Your Perfect Dish</h2>
                 <div class="input-group">
@@ -36,43 +73,11 @@
                 </div>
             </section>
 
-            <aside class="filters-sidebar">
-                <h2>Filter Results</h2>
-
-                <div class="filter-group">
-                    <label for="cuisine-filter">Cuisine Type:</label>
-                    <select id="cuisine-filter">
-                        <option value="">All Cuisines</option>
-
-                    </select>
+            <section class="like-section">
+                <div id="like-container" class="like-grid">
+                    <h2>You Might Like These:</h2>
                 </div>
-
-                <div class="filter-group">
-                    <label for="price-filter">Price Range:</label>
-                    <select id="price-filter">
-                        <option value="">All Prices</option>
-                        <option value="low">Low (Under 1500 KES)</option>
-                        <option value="medium">Medium (1500-3000 KES)</option>
-                        <option value="high">High (Above 3000 KES)</option>
-                    </select>
-                </div>
-
-                <div class="filter-group">
-                    <label for="rating-filter">Rating:</label>
-                    <select id="rating-filter">
-                        <option value="">All Ratings</option>
-                        <option value="4.5">4.5+ Stars</option>
-                        <option value="4.0">4.0+ Stars</option>
-                        <option value="3.5">3.5+ Stars</option>
-                    </select>
-                </div>
-
-                <div class="filter-buttons">
-                    <button id="search-btn">Apply Filters</button>
-                    <button id="reset-btn">Reset Filters</button>
-                </div>
-
-            </aside>
+            </section>
 
             <section class="results-section">
                 <div id="results-container" class="results-grid">
