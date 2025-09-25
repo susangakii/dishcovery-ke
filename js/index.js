@@ -9,7 +9,7 @@ function getRestaurants() {
         },
     })
         .then(response => response.json())
-        .then(data => data.restaurants)
+        .then(data => data.restaurants || data)
         .catch((error) => {
             console.error("Error Fetching Restaurants:", error);
             return [];
@@ -309,23 +309,24 @@ async function searchRestaurants() {
 
 
 //display recommendations in the "you might like this" section 
-async function displayRecommendations() {
+function displayRecommendations() {
     const likeContainer = document.getElementById('like-container');
-
-    const recommended = [];
-    allRestaurants.slice(0, 5).forEach(countyData => {
-        if (countyData.restaurants && countyData.restaurants.length > 0) {
-            const randomIndex = Math.floor(Math.random() * countyData.restaurants.length);
-            const restaurant = countyData.restaurants[randomIndex];
-            recommended.push({
+    const allRestaurantsFlat = [];
+    
+    allRestaurants.forEach(countyData => {
+        countyData.restaurants.forEach(restaurant => {
+            allRestaurantsFlat.push({
                 ...restaurant,
                 county: countyData.county
             });
-        }
-    })
-    await displayRestaurants(recommended, likeContainer);
-}
+        });
+    });
 
+    const shuffled = [...allRestaurantsFlat].sort(() => 0.5 - Math.random());
+    const topFive = shuffled.slice(0, 5);
+    
+    displayRestaurants(topFive, likeContainer);
+}
 
 //collapse and uncollapse the filter button at the top pf the page
 function toggleFilter() {
@@ -338,5 +339,35 @@ function toggleFilter() {
 document.addEventListener("DOMContentLoaded", function () {
     loadInitialData();
     hideResultsSection();
+
+    //search button
+    document.getElementById('submit-btn').addEventListener('click', function(e) {
+        e.preventDefault();
+        searchRestaurants();
+    });
+
+    //filter button
+    document.getElementById('search-btn').addEventListener('click', function(e) {
+        e.preventDefault();
+        if (filteredRestaurants.length > 0) {
+            applyFilters();
+        }
+    });
+
+    //reset button
+    document.getElementById('reset-btn').addEventListener('click', function(e) {
+        e.preventDefault();
+        resetFilters();
+    });
+
+    //enter keypress (when used instead of click)
+    document.getElementById('dish-input').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            searchRestaurants();
+        }
+    });
+
+
 });
 
