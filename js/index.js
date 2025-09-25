@@ -84,22 +84,75 @@ function populateCuisineDropdown() {
     });
 }
 
-//display recommendations in the "you might like this" section 
-function displayRecommendations() {
-    const likeContainer = document.getElementById('like-container');
-    likeContainer.innerHTML = '<h2>You Might Like These:</h2>';
-    
-    const recommended = [];
-    allRestaurants.slice(0, 5).forEach(countyData => {
-        if (countyData.restaurants && countyData.restaurants.length > 0) {
-            recommended.push({
-                ...countyData.restaurants[Math.floor(Math.random() * countyData.restaurants.length)], county: countyData.county
-            });
+//render restaurant cards to the specified container
+function displayRestaurants(restaurants, container) {
+    if (restaurants.length === 0) {
+        container.innerHTML = `
+            <div class="no-results">
+                <h2>No Results Found</h2>
+                <p>Try adjusting your search criteria or filters.</p>
+            </div>
+        `;
+        return;
+    }
+
+    const isResults = container.id === 'results-container';
+    const isRecommendations = container.id === 'like-container';
+    const headerText = isResults ? `Found ${restaurants.length} Restaurant(s):` : 'You Might Like These:';
+
+    let html = `<h2>${headerText}</h2>`;
+
+    restaurants.forEach(restaurant => {
+        const imageHtml = restaurant.images && restaurant.images.length > 0 ?
+            `<img src="${restaurant.images[0]}" alt="${restaurant.name}" class="restaurant-image" onerror="this.style.display='none'">` :
+            `<div class="restaurant-image-placeholder">No Image Available</div>`;
+
+        if (isRecommendations) {
+            html += `
+                <div class="restaurant-card">
+                    ${imageHtml}
+                    <h3>${restaurant.name}</h3>
+                    <div class="restaurant-actions">
+                        <button class="reserve-btn" onclick="reserveRestaurant('${restaurant.name}', '${restaurant.social_media[0]}')">
+                            Reserve Now
+                        </button>
+                        <button class="details-btn" onclick="showRestaurantDetails('${restaurant.id}', '${restaurant.county}')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            `;
+        } else {
+            const matchingDishes = getMatchingDishes(restaurant);
+            const dishesHtml = matchingDishes.length > 0 ?
+                `<p><strong>Featured Dishes:</strong> ${matchingDishes.join(', ')}</p>` : '';
+
+            html += `
+                <div class="restaurant-card">
+                    ${imageHtml}
+                    <h3>${restaurant.name}</h3>
+                    <p><strong>Location:</strong> ${restaurant.county}</p>
+                    <p><strong>Address:</strong> ${restaurant.address}</p>
+                    <p><strong>Cuisine:</strong> ${restaurant.cuisine}</p>
+                    <p><strong>Price Range:</strong> ${restaurant.price_range}</p>
+                    <p><strong>Rating:</strong> ${'⭐'.repeat(Math.floor(restaurant.rating))} ${restaurant.rating}/5</p>
+                    ${dishesHtml}
+                    <div class="restaurant-actions">
+                        <button class="reserve-btn" onclick="reserveRestaurant('${restaurant.name}', '${restaurant.social_media[0]}')">
+                            Reserve Now
+                        </button>
+                        <button class="details-btn" onclick="showRestaurantDetails('${restaurant.id}', '${restaurant.county}')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            `;
         }
     });
 
-   
+    container.innerHTML = html;
 }
+
 
 //reset the filters
 function resetFilters() {
@@ -108,7 +161,7 @@ function resetFilters() {
     document.getElementById('cuisine-filter').value = '';
     document.getElementById('price-filter').value = '';
     document.getElementById('rating-filter').value = '';
-    
+
     filteredRestaurants = [];
     hideResultsSection();
     displayRecommendations();
@@ -123,8 +176,78 @@ function hideResultsSection() {
 
 /****************************************************************************************/
 //ASYNC FUNCTIONS
-// shows recommended restaurants on the initial page load
+//main search (user)
+async function searchRestaurants() {
+    const county = document.getElementById('county-select').value;
+    const dishName = document.getElementById('dish-input').value.trim().toLowerCase();
 
+    if (!county && !dishName) {
+        showErrorMessage("Please Select a County or Enter a Dish Name to Search.");
+        return;
+    }
+
+    try {
+        let searchResults = [];
+
+        let dataToSearch = county ? //county filter
+            allRestaurants.filter(countyData => countyData.county.toLowerCase() === county.toLowerCase()) : 
+            allRestaurants;
+
+        dataToSearch.forEach(countyData => {
+            countyData.restaurants.forEach(restaurant => {
+                let matches = false;
+                
+                if (dishName) {
+                    matches = restaurant.dishes.some(dish => 
+                        dish.name.toLowerCase().includes(dishName) ||
+                        dish.description.toLowerCase().includes(dishName)
+                    );
+                } else {
+                    matches = true; //displays all restaurants instead (no dishname specified)
+                }
+
+                if (matches) {
+                    searchResults.push({
+                        ...restaurant,
+                        county: countyData.county
+                    });
+                }
+            });
+        });
+
+        filteredRestaurants = searchResults;
+        
+        
+        // scroll/redirect user to results section after search
+        document.querySelector('.results-section').scrollIntoView({ 
+            behavior: 'smooth' 
+        });
+
+    } catch (error) {
+        console.error("Error Searching Restaurants:", error);
+        showErrorMessage("Search Failed. Please Try Again.");
+    }
+}
+
+
+
+//display recommendations in the "you might like this" section 
+async function displayRecommendations() {
+    const likeContainer = document.getElementById('like-container');
+
+    const recommended = [];
+    allRestaurants.slice(0, 5).forEach(countyData => {
+        if (countyData.restaurants && countyData.restaurants.length > 0) {
+            const randomIndex = Math.floor(Math.random() * countyData.restaurants.length);
+            const restaurant = countyData.restaurants[randomIndex];
+            recommended.push({
+                ...restaurant,
+                county: countyData.county
+            });
+        }
+    })
+    await displayRestaurants(recommended, likeContainer);
+}
 
 
 //collapse and uncollapse the filter button at the top pf the page
