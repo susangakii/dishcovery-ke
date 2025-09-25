@@ -98,9 +98,12 @@ function displayRestaurants(restaurants, container) {
 
     const isResults = container.id === 'results-container';
     const isRecommendations = container.id === 'like-container';
-    const headerText = isResults ? `Found ${restaurants.length} Restaurant(s):` : 'You Might Like These:';
 
-    let html = `<h2>${headerText}</h2>`;
+    let html = "";
+
+    if (isResults) {
+        html = `<h2>Found ${restaurants.length} Restaurant(s):</h2>`;
+    }
 
     restaurants.forEach(restaurant => {
         const imageHtml = restaurant.images && restaurant.images.length > 0 ?
@@ -112,6 +115,8 @@ function displayRestaurants(restaurants, container) {
                 <div class="restaurant-card">
                     ${imageHtml}
                     <h3>${restaurant.name}</h3>
+                    <p><strong>Location:</strong> ${restaurant.county}</p>
+                    <p><strong>Rating:</strong> ${'⭐'.repeat(Math.floor(restaurant.rating))} ${restaurant.rating}/5</p>
                     <div class="restaurant-actions">
                         <button class="details-btn" onclick="showRestaurantDetails('${restaurant.id}', '${restaurant.county}')">
                             View Details
@@ -132,11 +137,9 @@ function displayRestaurants(restaurants, container) {
                     ${imageHtml}
                     <h3>${restaurant.name}</h3>
                     <p><strong>Location:</strong> ${restaurant.county}</p>
-                    <p><strong>Address:</strong> ${restaurant.address}</p>
                     <p><strong>Cuisine:</strong> ${restaurant.cuisine}</p>
                     <p><strong>Price Range:</strong> ${restaurant.price_range}</p>
                     <p><strong>Rating:</strong> ${'⭐'.repeat(Math.floor(restaurant.rating))} ${restaurant.rating}/5</p>
-                    ${dishesHtml}
                     <div class="restaurant-actions">
                         <button class="details-btn" onclick="showRestaurantDetails('${restaurant.id}', '${restaurant.county}')">
                             View Details
@@ -159,7 +162,7 @@ function getMatchingDishes(restaurant) {
     if (!dishName) return [];
 
     return restaurant.dishes
-        .filter(dish => 
+        .filter(dish =>
             dish.name.toLowerCase().includes(dishName) ||
             dish.description.toLowerCase().includes(dishName)
         )
@@ -174,6 +177,77 @@ function reserveRestaurant(restaurantName, socialMediaUrl) {
     } else {
         alert(`Contact ${restaurantName} Directly to Make a Reservation.`);
     }
+}
+
+//show restaurant info in a modal popup
+function showRestaurantDetails(restaurantId, county) {
+    const existingModal = document.querySelector('.restaurant-modal');
+    if (existingModal) {
+        document.body.removeChild(existingModal);
+    }
+
+    const restaurant = findRestaurantById(restaurantId, county);
+    if (!restaurant) return;
+
+    const imageHtml = restaurant.images && restaurant.images.length > 0 ?
+        `<img src="${restaurant.images[0]}" alt="${restaurant.name}" class="restaurant-image" style="margin-bottom: 1rem;">` :
+        `<div class="restaurant-image-placeholder" style="margin-bottom: 1rem;">No Image Available</div>`;
+
+    const modal = document.createElement('div');
+    modal.className = 'restaurant-modal';
+    modal.innerHTML = `
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            ${imageHtml}
+            <h2>${restaurant.name}</h2>
+            <p><strong>Address:</strong> ${restaurant.address}</p>
+            <p><strong>Phone:</strong> ${restaurant.phone}</p>
+            <p><strong>Email:</strong> ${restaurant.email}</p>
+            <p><strong>Special Features:</strong> ${restaurant.special_features}</p>
+            
+            <h3>Menu Items:</h3>
+            <div class="menu-items">
+                ${restaurant.dishes.map(dish => `
+                    <div class="menu-item">
+                        <strong>${dish.name}</strong>: ${dish.description}
+                    </div>
+                `).join('')}
+            </div>
+            
+            <h3>Drinks:</h3>
+            <div class="drinks-items">
+                ${restaurant.drinks.map(drink => `
+                    <div class="menu-item">
+                        <strong>${drink.name}</strong>: ${drink.description}
+                    </div>
+                `).join('')}
+            </div>
+            
+            <h3>Operating Hours:</h3>
+            <div class="hours">
+                ${restaurant.operating_hours.map(hour => `<p>${hour}</p>`).join('')}
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(modal);
+    modal.style.display = 'block';
+
+    modal.querySelector('.close-modal').onclick = () => {
+        document.body.removeChild(modal);
+    };
+
+    modal.onclick = (e) => {
+        if (e.target === modal) {
+            document.body.removeChild(modal);
+        }
+    };
+}
+
+//find a specific restaurant by ID and county
+function findRestaurantById(id, county) {
+    const countyData = allRestaurants.find(c => c.county === county);
+    return countyData ? countyData.restaurants.find(restaurant => restaurant.id === id) : null;
 }
 
 //apply filters (cuisine, price, rating)
@@ -194,10 +268,10 @@ function applyFilters() {
         results = results.filter(restaurant => {
             const priceRange = restaurant.price_range.toLowerCase();
             const priceNumbers = priceRange.match(/\d+/g);
-            
+
             if (priceNumbers && priceNumbers.length > 0) {
                 const minPrice = parseInt(priceNumbers[0]);
-                
+
                 switch (priceFilter) {
                     case 'low':
                         return minPrice < 1500;
@@ -221,11 +295,11 @@ function applyFilters() {
 
     const resultsContainer = document.getElementById('results-container');
     displayRestaurants(results, resultsContainer);
-    
+
     // close filter dropdown and scroll to results
     showResultsSection();
-    document.querySelector('.results-section').scrollIntoView({ 
-        behavior: 'smooth' 
+    document.querySelector('.results-section').scrollIntoView({
+        behavior: 'smooth'
     });
 }
 
@@ -272,15 +346,15 @@ async function searchRestaurants() {
         let searchResults = [];
 
         let dataToSearch = county ? //county filter
-            allRestaurants.filter(countyData => countyData.county.toLowerCase() === county.toLowerCase()) : 
+            allRestaurants.filter(countyData => countyData.county.toLowerCase() === county.toLowerCase()) :
             allRestaurants;
 
         dataToSearch.forEach(countyData => {
             countyData.restaurants.forEach(restaurant => {
                 let matches = false;
-                
+
                 if (dishName) {
-                    matches = restaurant.dishes.some(dish => 
+                    matches = restaurant.dishes.some(dish =>
                         dish.name.toLowerCase().includes(dishName) ||
                         dish.description.toLowerCase().includes(dishName)
                     );
@@ -300,10 +374,10 @@ async function searchRestaurants() {
         filteredRestaurants = searchResults;
         applyFilters();
         showResultsSection();
-        
+
         // scroll/redirect user to results section after search
-        document.querySelector('.results-section').scrollIntoView({ 
-            behavior: 'smooth' 
+        document.querySelector('.results-section').scrollIntoView({
+            behavior: 'smooth'
         });
 
     } catch (error) {
@@ -316,7 +390,7 @@ async function searchRestaurants() {
 function displayRecommendations() {
     const likeContainer = document.getElementById('like-container');
     const allRestaurantsFlat = [];
-    
+
     allRestaurants.forEach(countyData => {
         countyData.restaurants.forEach(restaurant => {
             allRestaurantsFlat.push({
@@ -327,8 +401,8 @@ function displayRecommendations() {
     });
 
     const shuffled = [...allRestaurantsFlat].sort(() => 0.5 - Math.random());
-    const topFive = shuffled.slice(0, 5);
-    
+    const topFive = shuffled.slice(0, 6);
+
     displayRestaurants(topFive, likeContainer);
 }
 
@@ -345,13 +419,13 @@ document.addEventListener("DOMContentLoaded", function () {
     hideResultsSection();
 
     //search button
-    document.getElementById('submit-btn').addEventListener('click', function(e) {
+    document.getElementById('submit-btn').addEventListener('click', function (e) {
         e.preventDefault();
         searchRestaurants();
     });
 
     //filter button
-    document.getElementById('search-btn').addEventListener('click', function(e) {
+    document.getElementById('search-btn').addEventListener('click', function (e) {
         e.preventDefault();
         if (filteredRestaurants.length > 0) {
             applyFilters();
@@ -359,13 +433,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     //reset button
-    document.getElementById('reset-btn').addEventListener('click', function(e) {
+    document.getElementById('reset-btn').addEventListener('click', function (e) {
         e.preventDefault();
         resetFilters();
     });
 
     //enter keypress (when used instead of click)
-    document.getElementById('dish-input').addEventListener('keypress', function(e) {
+    document.getElementById('dish-input').addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
             e.preventDefault();
             searchRestaurants();
@@ -373,17 +447,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     //filter changes (when user changes filter selection)
-    document.getElementById('cuisine-filter').addEventListener('change', function() {
+    document.getElementById('cuisine-filter').addEventListener('change', function () {
         if (filteredRestaurants.length > 0) {
             applyFilters();
         }
     });
-    document.getElementById('price-filter').addEventListener('change', function() {
+    document.getElementById('price-filter').addEventListener('change', function () {
         if (filteredRestaurants.length > 0) {
             applyFilters();
         }
     });
-    document.getElementById('rating-filter').addEventListener('change', function() {
+    document.getElementById('rating-filter').addEventListener('change', function () {
         if (filteredRestaurants.length > 0) {
             applyFilters();
         }

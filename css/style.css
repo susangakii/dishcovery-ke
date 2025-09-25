@@ -266,22 +266,22 @@ button {
     font-weight: 600;
 }
 
-#submit-btn, #search-btn {
+#submit-btn, #search-btn, .reserve-btn {
     background-color: #b83100;
     color: white;
 }
 
-#submit-btn:hover, #search-btn:hover {
+#submit-btn:hover, #search-btn:hove, .reserve-btn:hover {
     background-color: #693800;
     transform: translateY(-2px);
 }
 
-#reset-btn {
+#reset-btn, .details-btn {
     background-color: #6c757d;
     color: white;
 }
 
-#reset-btn:hover {
+#reset-btn:hover, .details-btn:hover {
     background-color: #363c40;
     transform: translateY(-2px);
 }
@@ -351,24 +351,6 @@ button {
     cursor: pointer;
     font-size: 0.9rem;
     transition: all 0.3s ease;
-}
-
-.reserve-btn {
-    background: #28a745;
-    color: white;
-}
-
-.reserve-btn:hover {
-    background: #218838;
-}
-
-.details-btn {
-    background: #007bff;
-    color: white;
-}
-
-.details-btn:hover {
-    background: #0056b3;
 }
 
 /* modal styles */
