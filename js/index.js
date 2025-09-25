@@ -153,6 +153,59 @@ function displayRestaurants(restaurants, container) {
     container.innerHTML = html;
 }
 
+//apply filters (cuisine, price, rating)
+function applyFilters() {
+    const cuisineFilter = document.getElementById('cuisine-filter').value;
+    const priceFilter = document.getElementById('price-filter').value;
+    const ratingFilter = document.getElementById('rating-filter').value;
+
+    let results = [...filteredRestaurants];
+
+    // cuisine
+    if (cuisineFilter) {
+        results = results.filter(restaurant => restaurant.cuisine === cuisineFilter);
+    }
+
+    // price
+    if (priceFilter) {
+        results = results.filter(restaurant => {
+            const priceRange = restaurant.price_range.toLowerCase();
+            const priceNumbers = priceRange.match(/\d+/g);
+            
+            if (priceNumbers && priceNumbers.length > 0) {
+                const minPrice = parseInt(priceNumbers[0]);
+                
+                switch (priceFilter) {
+                    case 'low':
+                        return minPrice < 1500;
+                    case 'medium':
+                        return minPrice >= 1500 && minPrice <= 3000;
+                    case 'high':
+                        return minPrice > 3000;
+                    default:
+                        return true;
+                }
+            }
+            return true;
+        });
+    }
+
+    // rating
+    if (ratingFilter) {
+        const minRating = parseFloat(ratingFilter);
+        results = results.filter(restaurant => restaurant.rating >= minRating);
+    }
+
+    const resultsContainer = document.getElementById('results-container');
+    displayRestaurants(results, resultsContainer);
+    
+    // close filter dropdown and scroll to results
+    toggleFilter();
+    showResultsSection();
+    document.querySelector('.results-section').scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+}
 
 //reset the filters
 function resetFilters() {
@@ -216,7 +269,8 @@ async function searchRestaurants() {
         });
 
         filteredRestaurants = searchResults;
-        
+        applyFilters();
+        showResultsSection();
         
         // scroll/redirect user to results section after search
         document.querySelector('.results-section').scrollIntoView({ 
