@@ -153,6 +153,29 @@ function displayRestaurants(restaurants, container) {
     container.innerHTML = html;
 }
 
+//return dishes matching current search term
+function getMatchingDishes(restaurant) {
+    const dishName = document.getElementById('dish-input').value.trim().toLowerCase();
+    if (!dishName) return [];
+
+    return restaurant.dishes
+        .filter(dish => 
+            dish.name.toLowerCase().includes(dishName) ||
+            dish.description.toLowerCase().includes(dishName)
+        )
+        .map(dish => dish.name)
+        .slice(0, 3);
+}
+
+//handle restaurant reservation
+function reserveRestaurant(restaurantName, socialMediaUrl) {
+    if (socialMediaUrl) {
+        window.open(socialMediaUrl, '_blank');
+    } else {
+        alert(`Contact ${restaurantName} Directly to Make a Reservation.`);
+    }
+}
+
 //apply filters (cuisine, price, rating)
 function applyFilters() {
     const cuisineFilter = document.getElementById('cuisine-filter').value;
