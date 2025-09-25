@@ -200,6 +200,9 @@ function showRestaurantDetails(restaurantId, county) {
             <span class="close-modal">&times;</span>
             ${imageHtml}
             <h2>${restaurant.name}</h2>
+            <p><strong>Cuisine:</strong> ${restaurant.cuisine}</p>
+            <p><strong>Price Range:</strong> ${restaurant.price_range}</p>
+            <p><strong>Rating:</strong> ${'⭐'.repeat(Math.floor(restaurant.rating))} ${restaurant.rating}/5</p>
             <p><strong>Address:</strong> ${restaurant.address}</p>
             <p><strong>Phone:</strong> ${restaurant.phone}</p>
             <p><strong>Email:</strong> ${restaurant.email}</p>

@@ -271,7 +271,7 @@ button {
     color: white;
 }
 
-#submit-btn:hover, #search-btn:hove, .reserve-btn:hover {
+#submit-btn:hover, #search-btn:hover, .reserve-btn:hover {
     background-color: #693800;
     transform: translateY(-2px);
 }
@@ -477,10 +477,10 @@ footer {
     
     .input-values {
         height: auto;
-    }
+    } 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 0px) {
     .container {
         padding: 0 15px;
     }
@@ -514,7 +514,21 @@ footer {
     }
 
     .results-grid, .like-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: none;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: minmax(280px, 1fr);
+        gap: 1rem;
+        overflow-x: auto;
+        padding-bottom: 1rem;
+        scrollbar-width: thin;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .results-section, .like-section {
+        overflow: hidden;
+        width: 100%;
     }
     
     .modal-content {
@@ -527,22 +541,7 @@ footer {
     }
 }
 
-/* additional utility classes */
+/* additional */
 .hidden {
     display: none !important;
-}
-
-.loading {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 3px solid rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
-    border-top-color: #fff;
-    animation: spin 1s ease-in-out infinite;
-    margin-right: 10px;
-}
-
-@keyframes spin {
-    to { transform: rotate(360deg); }
 }
