@@ -121,8 +121,8 @@ function displayRestaurants(restaurants, container) {
                         <button class="details-btn" onclick="showRestaurantDetails('${restaurant.id}', '${restaurant.county}')">
                             View Details
                         </button>
-                        <button class="reserve-btn" onclick="reserveRestaurant('${restaurant.name}', '${restaurant.social_media[0]}')">
-                            Reserve Now
+                        <button class="reserve-btn" onclick="contactRestaurant('${restaurant.name}', '${restaurant.phone}', '${restaurant.email}', '${restaurant.website}')">
+                            Get in Touch
                         </button>
                     </div>
                 </div>
@@ -144,8 +144,8 @@ function displayRestaurants(restaurants, container) {
                         <button class="details-btn" onclick="showRestaurantDetails('${restaurant.id}', '${restaurant.county}')">
                             View Details
                         </button>
-                        <button class="reserve-btn" onclick="reserveRestaurant('${restaurant.name}', '${restaurant.social_media[0]}')">
-                            Reserve Now
+                        <button class="reserve-btn" onclick="contactRestaurant('${restaurant.name}', '${restaurant.phone}', '${restaurant.email}', '${restaurant.website}')">
+                            Get in Touch
                         </button>
                     </div>
                 </div>
@@ -170,13 +170,27 @@ function getMatchingDishes(restaurant) {
         .slice(0, 3);
 }
 
-//handle restaurant reservation
-function reserveRestaurant(restaurantName, socialMediaUrl) {
-    if (socialMediaUrl) {
-        window.open(socialMediaUrl, '_blank');
-    } else {
-        alert(`Contact ${restaurantName} Directly to Make a Reservation.`);
-    }
+//handle getting in touch with restaurant
+function contactRestaurant(name, phone, email, website) {
+    const modal = document.createElement('div');
+    modal.className = 'contact-modal';
+    
+    modal.innerHTML = `
+        <div class="contact-content">
+            <span class="close-contact">&times;</span>
+            <h2>Contact ${name}</h2>
+            ${phone ? `<p><strong>📞 Phone:</strong> <a href="tel:${phone}">${phone}</a></p>` : ''}
+            ${email ? `<p><strong>📧 Email:</strong> <a href="mailto:${email}">${email}</a></p>` : ''}
+            ${website ? `<p><strong>🌐 Website:</strong> <a href="${website}" target="_blank">Visit Site</a></p>` : ''}
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    
+    modal.querySelector('.close-contact').onclick = () => document.body.removeChild(modal);
+    modal.onclick = (e) => {
+        if (e.target === modal) document.body.removeChild(modal);
+    };
 }
 
 //show restaurant info in a modal popup
@@ -300,7 +314,9 @@ function applyFilters() {
     displayRestaurants(results, resultsContainer);
 
     // close filter dropdown and scroll to results
-    showResultsSection();
+    const filterSidebar = document.querySelector('.filters-sidebar');
+    filterSidebar.classList.add('collapsed');
+
     document.querySelector('.results-section').scrollIntoView({
         behavior: 'smooth'
     });
@@ -308,15 +324,18 @@ function applyFilters() {
 
 //reset the filters
 function resetFilters() {
-    document.getElementById('county-select').value = '';
-    document.getElementById('dish-input').value = '';
     document.getElementById('cuisine-filter').value = '';
     document.getElementById('price-filter').value = '';
     document.getElementById('rating-filter').value = '';
 
-    filteredRestaurants = [];
-    hideResultsSection();
-    displayRecommendations();
+    if (filteredRestaurants.length > 0) {
+        const resultsContainer = document.getElementById('results-container');
+        displayRestaurants(filteredRestaurants, resultsContainer);
+    }
+    toggleFilter();
+    document.querySelector('.results-section').scrollIntoView({
+        behavior: 'smooth'
+    });
 }
 
 //show results section
@@ -331,7 +350,6 @@ function hideResultsSection() {
     document.querySelector('.results-section').classList.remove('show');
     document.querySelector('.results-section').style.display = 'none';
 }
-
 
 /****************************************************************************************/
 //ASYNC FUNCTIONS
@@ -448,22 +466,4 @@ document.addEventListener("DOMContentLoaded", function () {
             searchRestaurants();
         }
     });
-
-    //filter changes (when user changes filter selection)
-    document.getElementById('cuisine-filter').addEventListener('change', function () {
-        if (filteredRestaurants.length > 0) {
-            applyFilters();
-        }
-    });
-    document.getElementById('price-filter').addEventListener('change', function () {
-        if (filteredRestaurants.length > 0) {
-            applyFilters();
-        }
-    });
-    document.getElementById('rating-filter').addEventListener('change', function () {
-        if (filteredRestaurants.length > 0) {
-            applyFilters();
-        }
-    });
 });
-
