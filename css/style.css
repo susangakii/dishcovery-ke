@@ -286,6 +286,184 @@ button {
     transform: translateY(-2px);
 }
 
+/* restaurant card and buttons styling */
+.restaurant-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #ff6b35;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.restaurant-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.restaurant-image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #e9ecef;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.restaurant-card h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.restaurant-card p {
+    color: #666;
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
+}
+
+.restaurant-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.reserve-btn,
+.details-btn {
+    flex: 1;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.reserve-btn {
+    background: #28a745;
+    color: white;
+}
+
+.reserve-btn:hover {
+    background: #218838;
+}
+
+.details-btn {
+    background: #007bff;
+    color: white;
+}
+
+.details-btn:hover {
+    background: #0056b3;
+}
+
+/* modal styles */
+.restaurant-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 3% auto;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 85%;
+    max-width: 700px;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.close-modal {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #999;
+    font-weight: bold;
+}
+
+.close-modal:hover {
+    color: #333;
+}
+
+.modal-content h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    padding-right: 3rem;
+}
+
+.modal-content h3 {
+    color: #333;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #ff6b35;
+    padding-bottom: 0.5rem;
+}
+
+.menu-item {
+    background: #f8f9fa;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    border-left: 3px solid #ff6b35;
+}
+
+.menu-item strong {
+    color: #333;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.hours p {
+    background: #e9ecef;
+    padding: 0.4rem 0.8rem;
+    margin-bottom: 0.3rem;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* error and no results Styles */
+.error-message,
+.no-results {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.error-message h2,
+.no-results h2 {
+    color: #dc3545;
+    margin-bottom: 1rem;
+}
+
 /* footer */
 footer {
     background-color: #343a40;
@@ -353,8 +531,17 @@ footer {
         right: -15px;
     }
 
-    .results-grid {
+    .results-grid, .like-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+    
+    .restaurant-actions {
+        flex-direction: column;
     }
 }
 
@@ -376,23 +563,4 @@ footer {
 
 @keyframes spin {
     to { transform: rotate(360deg); }
-}
-
-/* restaurant card styling*/
-.restaurant-card {
-    background: #f8f9fa;
-    padding: 1rem;
-    border-radius: 8px;
-    border-left: 4px solid #ff6b35;
-    margin-bottom: 1rem;
-}
-
-.restaurant-card h3 {
-    color: #333;
-    margin-bottom: 0.5rem;
-}
-
-.restaurant-card p {
-    color: #666;
-    margin-bottom: 0.25rem;
 }
