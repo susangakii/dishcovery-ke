@@ -113,11 +113,11 @@ function displayRestaurants(restaurants, container) {
                     ${imageHtml}
                     <h3>${restaurant.name}</h3>
                     <div class="restaurant-actions">
-                        <button class="reserve-btn" onclick="reserveRestaurant('${restaurant.name}', '${restaurant.social_media[0]}')">
-                            Reserve Now
-                        </button>
                         <button class="details-btn" onclick="showRestaurantDetails('${restaurant.id}', '${restaurant.county}')">
                             View Details
+                        </button>
+                        <button class="reserve-btn" onclick="reserveRestaurant('${restaurant.name}', '${restaurant.social_media[0]}')">
+                            Reserve Now
                         </button>
                     </div>
                 </div>
@@ -138,11 +138,11 @@ function displayRestaurants(restaurants, container) {
                     <p><strong>Rating:</strong> ${'⭐'.repeat(Math.floor(restaurant.rating))} ${restaurant.rating}/5</p>
                     ${dishesHtml}
                     <div class="restaurant-actions">
-                        <button class="reserve-btn" onclick="reserveRestaurant('${restaurant.name}', '${restaurant.social_media[0]}')">
-                            Reserve Now
-                        </button>
                         <button class="details-btn" onclick="showRestaurantDetails('${restaurant.id}', '${restaurant.county}')">
                             View Details
+                        </button>
+                        <button class="reserve-btn" onclick="reserveRestaurant('${restaurant.name}', '${restaurant.social_media[0]}')">
+                            Reserve Now
                         </button>
                     </div>
                 </div>
@@ -223,7 +223,6 @@ function applyFilters() {
     displayRestaurants(results, resultsContainer);
     
     // close filter dropdown and scroll to results
-    toggleFilter();
     showResultsSection();
     document.querySelector('.results-section').scrollIntoView({ 
         behavior: 'smooth' 
@@ -241,6 +240,13 @@ function resetFilters() {
     filteredRestaurants = [];
     hideResultsSection();
     displayRecommendations();
+}
+
+//show results section
+function showResultsSection() {
+    const resultsSection = document.querySelector('.results-section');
+    resultsSection.style.display = 'block';
+    resultsSection.classList.add('show');
 }
 
 //hide the results section/featured restaurants section upon initial page load
@@ -306,8 +312,6 @@ async function searchRestaurants() {
     }
 }
 
-
-
 //display recommendations in the "you might like this" section 
 function displayRecommendations() {
     const likeContainer = document.getElementById('like-container');
@@ -368,6 +372,21 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-
+    //filter changes (when user changes filter selection)
+    document.getElementById('cuisine-filter').addEventListener('change', function() {
+        if (filteredRestaurants.length > 0) {
+            applyFilters();
+        }
+    });
+    document.getElementById('price-filter').addEventListener('change', function() {
+        if (filteredRestaurants.length > 0) {
+            applyFilters();
+        }
+    });
+    document.getElementById('rating-filter').addEventListener('change', function() {
+        if (filteredRestaurants.length > 0) {
+            applyFilters();
+        }
+    });
 });
 
