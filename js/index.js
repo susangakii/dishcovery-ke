@@ -16,9 +16,9 @@ function getRestaurants() {
         })
 }
 
-//fetch a specific restaurant by id
-function getRestaurantById(id) {
-    return fetch(`http://localhost:3000/restaurants/${id}`, {
+//fetch a specific restaurant by county
+function getRestaurantByCounty(countyName) {
+    return fetch("http://localhost:3000/restaurants", {
         method: "GET",
         headers: {
             "Content-Type": "application/json",
@@ -27,7 +27,7 @@ function getRestaurantById(id) {
         .then(response => response.json())
         .then(data => data)
         .catch((error) => {
-            console.error("Error Fetching Restaurant by Id:", error);
+            console.error("Error Fetching County Restaurants:", error);
             return null;
         })
 }
@@ -90,7 +90,7 @@ function displayRestaurants(restaurants, container) {
         container.innerHTML = `
             <div class="no-results">
                 <h2>No Results Found</h2>
-                <p>Try adjusting your search criteria or filters.</p>
+                <p>Try Adjusting Your Search Criteria or Filters.</p>
             </div>
         `;
         return;
@@ -166,8 +166,7 @@ function getMatchingDishes(restaurant) {
             dish.name.toLowerCase().includes(dishName) ||
             dish.description.toLowerCase().includes(dishName)
         )
-        .map(dish => dish.name)
-        .slice(0, 3);
+        .map(dish => dish.name);
 }
 
 //handle getting in touch with restaurant
